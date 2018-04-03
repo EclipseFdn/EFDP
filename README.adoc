@@ -1,0 +1,62 @@
+= The Eclipse Development Process Repository
+Eclipse Management Organization <emo@eclipse.org>
+:hide-uri-scheme:
+
+Welcome to the Eclipse Development Process Repository. 
+This repository is a document generation hub and provides an infrastructure for hosting, extending and generating documents of the Eclipse Development Process.
+Our link:eclipse_development_process.adoc[Eclipse Development Process] is the go-to source of truth for Eclipse committers.
+Please make yourself familar and don’t hesitate to give feedback.
+
+By maintaining our link:eclipse_development_process.adoc[Eclipse Development Process document] in this repository, we are embracing a transparent and open culture about our process.
+Watch link:https://bit.ly/pull-request-your-culture[Changing the Laws of Engineering with GitHub Pull Requests] for additional background on why we’ve choosen this approach.
+Please open issues or pull requests if you’d like to see our process evolove.
+
+
+== Feedback & Contact
+
+We’d like to hear your feedback. 
+It matters to us! 
+
+Please submit feedback using one of the following ways:
+
+* Submit an issue, or
+* Submit a pull request (please read <<Contributing>> below).
+
+
+== Contributing
+
+This directory contains the source for the[Eclipse Development Process](eclipse_development_process.adoc) in AsciiDoc format, the build script, and generated output. 
+The build script is configured to generate output for a specific version of the document and running the build (`npm run build`) may overwrite any existing document.
+
+The output files (eg., `*.html`) may be live documents that may be included by other documents found in the repository and also externally, so take care with what you commit.
+
+=== Installing NPM
+NPM is required for generating the output files. 
+Please have a look at link:https://www.npmjs.com/get-npm[Get npm!]
+
+=== Installing Asciidoctor
+Please allow NPM to install all dependencies by running `npm run install`.
+
+=== AsciiDoc Syntax
+Please refere to  link:http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax Quick Reference].
+
+=== Making changes
+Follow link:https://asciidoctor.org/docs/asciidoc-recommended-practices/[AsciiDoc Recommended Practices] when making changes.
+In particular, the one sentence per line recommendation is important to us.
+This makes it much easier to view the diffs in git. 
+
+As a sanity check, `npm run lint` should be run before committing. 
+It should be run automatically because npm install should setup Git a pre-coomit hook automatically.
+
+TIP: Sometimes, it isn’t possible to fix all lint issue, e.g., because you’d like to try out something for testing or discussion.
+In that case, you can use `git commit --no-verify` to temporarily bypass the check.
+
+=== Update Process
+Please submit pull requests for any proposals/semantic changes/enhancements.
+We’ll use pull requests for discussing them.
+
+Requirements, ideas and todos should be captured in issues and should be referenced in pull requests addressing them.
+
+A note for committers: spelling, grammatical as well as cosmetic corrections don’t require a pull request *except* for the official [Eclipse Development Process document](eclipse_development_process.adoc).
+
+_Any change to `eclipse_development_process.adoc` requires a pull request and full EMO review and approval before merge._

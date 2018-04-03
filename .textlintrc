@@ -1,0 +1,14 @@
+
+plugins:
+  - asciidoctor
+  
+rules:
+  apostrophe: true
+  common-misspellings: true
+  diacritics: true
+  en-capitalization: true
+  en-max-word-count: true
+  stop-words: true
+  write-good:
+    passive: false
+  
