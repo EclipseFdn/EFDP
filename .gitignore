@@ -59,3 +59,6 @@ typings/
 
 # npm package-lock.json
 package-lock.json
+
+# for now ignore any generated html
+.html

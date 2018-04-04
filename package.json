@@ -17,10 +17,12 @@
     "textlint-rule-write-good": "^1.6.2"
   },
   "scripts": {
-    "lint": "textlint -f pretty-error *.adoc",
-    "lint:fix": "textlint --fix *.adoc",
-    "build": "asciidoctorjs --help",
-    "precommit": "npm run lint"
+    "lint": "textlint -f pretty-error README.adoc *.md",
+    "lint:edp": "textlint -f pretty-error eclipse_*.adoc",
+    "lint:fix": "textlint --fix README.adoc *.md",
+    "build": "asciidoctorjs eclipse_development_process.adoc",
+    "precommit": "npm test",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
