@@ -277,7 +277,7 @@ resources and committers it has, can also have zero or more
 subprojects. Each of these subprojects has its own distinct set of
 committers and resources.
 
-<img src="/projects/dev_process/images/subprojects-resources-291x300.png" />
+image::https://www.eclipse.org/projects/dev_process/images/subprojects-resources-291x300.png[]
 
 
 [#4_2_Code_and_Releases]
@@ -626,8 +626,8 @@ mature phase.
 [#6_2_Project_Lifecycle]
 === 6.2 Project Lifecycle
 
-<img src="/projects/dev_process/development_process_2014/images/lifecycle.png"
-align="right">
+image::https://www.eclipse.org/projects/dev_process/development_process_2014/images/lifecycle.png[]
+
 Projects go through distinct phases. The transitions from phase
 to phase are open and transparent public reviews.
 
