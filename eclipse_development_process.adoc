@@ -959,13 +959,17 @@ A variety of grievance resolutions are available to the EMO up to,
 and including, rebooting or restarting a project with new Committers
 and leadership.
 
-== 7. Precedence [[7_Precedence]]
+
+[[7_Precedence]]
+== 7. Precedence
 
 In the event of a conflict between this document and a
 board of directors-approved project charter, the most recently approved document
 will take precedence.
 
-== 8. Revisions [[8_Revisions]]
+
+[[8_Revisions]]
+== 8. Revisions
 
 As specified in the bylaws, the EMO is responsible for maintaining
 this document and all changes must be approved by the board of directors.
@@ -981,13 +985,17 @@ documents and reports produced in accordance with this development
 process be made available to the membership at large via an
 appropriate mechanism in a timely, effective manner.
 
-=== 8.1 Revision 2.8 [[8_1_Revision]]
+
+[[8_1_Revision]]
+=== 8.1 Revision 2.8
 
 This document was approved by the Eclipse Foundation Board of
 Directors in its meeting on November 2/2015. It takes effect (replacing
 all previous versions) on December 2/2015.
 
-=== 8.2 History [[8_2_History]]
+
+[[8_2_History]]
+=== 8.2 History
 
 Changes made in this document: 
 * (link:https://bugs.eclipse.org/376001[Bug 376001]) Make the process of retiring/removing project members explicit
