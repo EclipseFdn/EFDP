@@ -1,6 +1,7 @@
 = The Eclipse Development Process
 Eclipse Management Organization <emo@eclipse.org>
 2015
+:toc:
 
 == 1. Purpose
 
@@ -28,20 +29,22 @@ This document has the following sections:
 
 * <<2_Principles,Principles>> outlines the basic principles upon which the development process is based.
 * <<3_Requirements,Requirements>> describes the requirements that the Eclipse community has for its development process.
-* <<Structure and Organization>> specifies the structure and organization of the projects and project community at Eclipse.
-* <<Development Process>> outlines the lifecycle and processes required of all Eclipse projects.
+* <<4_Structure_and_Organization,Structure and Organization>> specifies the structure and organization of the projects and project community at Eclipse.
+* <<6_Development_Process,Development Process>> outlines the lifecycle and processes required of all Eclipse projects.
 
 This document defines terms used elsewhere in Eclipse governance documents
 including the Bylaws, Membership Agreement, and IP Policy.
 
 
-== 2. Principles [[2_Principles]]
+[#2_Principles]
+== 2. Principles
 
 The following describes the guiding principles used in developing
 this development process.
 
 
-===  2.1 Open Source Rules of Engagement [[2_1_Open_Source_Rules_of_Engagement]]
+[#2_1_Open_Source_Rules_of_Engagement]
+===  2.1 Open Source Rules of Engagement
 
 * *Open* - Eclipse is open to all; Eclipse provides the same
 opportunity to all. Everyone participates with the same rules; there
@@ -55,7 +58,8 @@ contribute the more responsibility you will earn. Leadership roles
 in Eclipse are also merit-based and earned by peer acclaim.
 
 
-=== 2.2 Eclipse Ecosystem [[2_2_Eclipse_Ecosystem]]
+[#2_2_Eclipse_Ecosystem]
+=== 2.2 Eclipse Ecosystem
 
 Eclipse as a brand is the sum of its parts (all of the projects),
 and projects should strive for the highest possible quality in
@@ -69,22 +73,23 @@ ensures that the projects are managed for the benefit of both the
 open source community and the ecosystem members. To this end, all
 Eclipse projects are required to:
 
-<ul>
 * communicate their project plans and plans for new features (major
 and minor) in a timely, open and transparent manner;
 * create high-quality frameworks capable of supporting the
 building of commercial grade products on top of them; and
 * ship extensible, exemplary applications which help enable a broad
 community of users.
-</ul>
 
 
-=== 2.3 Three Communities [[2_3_Three_Communities]]
+[#2_3_Three_Communities]
+=== 2.3 Three Communities
 
 Essential to the purposes of the Eclipse Foundation is the
 development of three inter-related communities around each project:
 
-==== 2.3.1 Contributors and Committers [[2_3_1_Committers]]
+
+[#2_3_1_Committers]
+==== 2.3.1 Contributors and Committers
 
 A  thriving, diverse,
 and active community of developers is the key component of any
@@ -96,7 +101,9 @@ active recruiting, not just passive "openness". The project
 leadership must make reasonable efforts to encourage and nurture
 promising new contributors.
 
-==== 2.3.2 Users [[2_3_2_Users]]
+
+[#2_3_2_Users]
+==== 2.3.2 Users
 
 An active and engaged user community is
 proof-positive that the project's exemplary applications are useful and
@@ -108,7 +115,8 @@ and effort to bring to fruition, but once established is typically
 self-sustaining.
 
 
-==== 2.3.3 Adopters [[2_3_3_Adopters]]
+[#2_3_3_Adopters]
+==== 2.3.3 Adopters
 
 An active and engaged adopter
 community is the only way to prove that an Eclipse project is
@@ -126,7 +134,8 @@ transparent, and inviting, and/or that it has emphasized applications at the
 expense of extensible frameworks or vice versa.
 
 
-===  2.4 Clear, Concise, and Evolving [[2_4_Clear_Concise_and_Evolving]]
+[#2_4_Clear_Concise_and_Evolving]
+===  2.4 Clear, Concise, and Evolving
 
 It is an explicit goal of the development process to be as clear
 and concise as possible so as to help the project teams navigate the
@@ -157,7 +166,8 @@ we expect the projects and members to engage the community-at-large
 to clarify the current norms and expectations.
 
 
-=== 2.5 Freedom of Action [[2_5_Freedom_of_Action]]
+[#2_5_Freedom_of_Action]
+=== 2.5 Freedom of Action
 
 Projects are required to engage in practices that ensure the continued
 viability of the project, independent from the continued availability of external
@@ -170,7 +180,8 @@ all source code management, distribution channels for artifacts, issue
 tracking, documentation, and public communication channels.
 
 
-== 3. Requirements [[3_Requirements]]
+[#3_Requirements]
+== 3. Requirements
 
 This document is entirely composed of requirements. In addition to
 the requirements specified in this development process, the EMO is
@@ -187,10 +198,13 @@ The EMO is not permitted to override or ignore the requirements
 listed in this document without the express written endorsement of
 the board of directors.
 
-=== 3.1 [Reserved] [[3_1_Requirements_and_Guidelines]]
+
+[#3_1_Requirements_and_Guidelines]
+=== 3.1 [Reserved]
 
 
-==  4. Project Structure and Organization [[4_Structure_and_Organization]]
+[#4_Structure_and_Organization]
+==  4. Project Structure and Organization
 
 A project is the main operational unit at Eclipse.
 Specifically, all open source software development at Eclipse occurs
@@ -231,7 +245,8 @@ the subset of the EMO consisting of the executive director and
 whomever he or she may delegate that specific approval authority to.
 
 
-=== 4.1 Committers [[4_1_Committers]]
+[#4_1_Committers]
+=== 4.1 Committers
 
 Each project has exactly one set of committers. Each project's set of
 committers is distinct from that of any other project, including
@@ -265,7 +280,8 @@ committers and resources.
 <img src="/projects/dev_process/images/subprojects-resources-291x300.png" />
 
 
-=== 4.2 Code and Resources [[4_2_Code_and_Releases]]
+[#4_2_Code_and_Releases]
+=== 4.2 Code and Resources
 
 Each project owns and maintains a collection of resources.
 
@@ -291,7 +307,8 @@ EMO to request exceptions to this rule, and with their mentors and PMC if
 there are questions regarding the use of the namespace.
 
 
-=== 4.3 Intellectual Property (IP) Records [[4_3_IP_Records]]
+[#4_3_IP_Records]
+=== 4.3 Intellectual Property (IP) Records
 
 A project at any level may receive IP clearance for contributions
 and third-party libraries. IP approval will often include the same
@@ -299,7 +316,8 @@ approval for all descendant projects. However, IP clearance will only
 be granted at the most appropriate technical level.
 
 
-=== 4.4 Community Awareness [[4_4_Community_Awareness]]
+[#4_4_Community_Awareness]
+=== 4.4 Community Awareness
 
 Projects are the level of communication with the larger Eclipse
 community and ecosystem. Projects may either have their own
@@ -321,7 +339,8 @@ project must be correctly labeled, i.e., the incubation phase is
 viral and expands to cover all releases in which it is included.
 
 
-=== 4.5 Scope [[4_5_Scope]]
+[#4_5_Scope]
+=== 4.5 Scope
 
 Each top-Level project has a Charter which describes the
 purpose, scope, and operational rules for the top-level
@@ -345,7 +364,8 @@ as reviewed and approved by the Project Management Committee (PMC)
 by the EMO. A project's scope must be a subset of its parent's scope.
 
 
-=== 4.6 Leaders [[4_6_Leaders]]
+[#4_6_Leaders]
+=== 4.6 Leaders
 
 There are two different types of project leadership at Eclipse: The
 Project Management Committee (PMC) and project leads. Both forms of
@@ -369,7 +389,8 @@ chain has the authority to make changes (add, remove) to the set of committers
 and/or project leads of that project, and otherwise act on behalf of the project lead.
 
 
-==== 4.6.1 Project Management Committee (PMC) [[4_6_1_PMC]]
+[#4_6_1_PMC]
+==== 4.6.1 Project Management Committee (PMC)
 
 Top-level projects are managed by a Project Management Committee
 (PMC). A PMC has one or more PMC leads and zero or more PMC Members.
@@ -391,7 +412,8 @@ subject to approval by the EMO. Removal of a PMC Lead requires approval
 of the Board.
 
 
-==== 4.6.2 Project Lead [[4_6_2_PL]]
+[#4_6_2_PL]
+==== 4.6.2 Project Lead
 
 Eclipse projects are managed by one or more project leads. Project
 leads are responsible for ensuring that their project's committers
@@ -410,7 +432,8 @@ may be removed by the unanimous vote of the remaining project leads
 the project's PMC.
 
 
-=== 4.7 Committers and Contributors [[4_7_Committers_and_Contributors]]
+[#4_7_Committers_and_Contributors]
+=== 4.7 Committers and Contributors
 
 Each project has a development team, led by the project
 leaders. The development team is composed of committers and contributors.
@@ -485,7 +508,8 @@ are roles; an individual may take on more than one of these roles
 simultaneously.
 
 
-=== 4.8 Councils [[4_8_Councils]]
+[#4_8_Councils]
+=== 4.8 Councils
 
 The councils defined in the bylaws, section VII are comprised of
 strategic members and PMC representatives. The councils help guide
@@ -521,7 +545,8 @@ NOTE: See link:architecture-council.php[guidelines and checklists]
 for the Architecture Council.
 
 
-=== 4.9 Permanent Incubator Projects [[4_9_Incubators]]
+[#4_9_Incubators]
+=== 4.9 Permanent Incubator Projects
 
 A project may designate a subproject as a "permanent incubator". A
 permanent incubator is a project that is intended to perpetually remain in the
@@ -555,7 +580,8 @@ may create a permanent incubator. Permanent incubator projects are created upon
 request; a creation review is not required.
 
 
-=== 4.10 Project Plans [[4_10_Plans]]
+[#4_10_Plans]
+=== 4.10 Project Plans
 
 Projects are required to make a project plan available to their community
 at the beginning of the development cycle for each major and minor release.
@@ -569,10 +595,12 @@ depending on numerous variables, including the size and expectations of the
 communities, and requirements specified by the PMC.
 
 
-== 5. [Reserved] [[5_Reserved]]
+[#5_Reserved]
+== 5. [Reserved]
 
 
-== 6. Development Process [[6_Development_Process]]
+[#6_Development_Process]
+== 6. Development Process
 
 Projects must work within their scope. Projects that desire to
 expand beyond their current scope must seek an enlargement of their
@@ -584,7 +612,8 @@ Projects must provide advanced notification of upcoming features
 via their project plan.
 
 
-=== 6.1 Mentors [[6_1_Mentors]]
+[#6_1_Mentors]
+=== 6.1 Mentors
 
 New project proposals are required to have at least one mentor.
 Mentors must be members of the Architecture Council. The
@@ -594,7 +623,8 @@ they are released from that duty once the project graduates to the
 mature phase.
 
 
-=== 6.2 Project Lifecycle [[6_2_Project_Lifecycle]]
+[#6_2_Project_Lifecycle]
+=== 6.2 Project Lifecycle
 
 <img src="/projects/dev_process/development_process_2014/images/lifecycle.png"
 align="right">
@@ -602,7 +632,8 @@ Projects go through distinct phases. The transitions from phase
 to phase are open and transparent public reviews.
 
 
-==== 6.2.1 Pre-proposal Phase [[6_2_1_Pre-Proposa]]
+[#6_2_1_Pre-Proposa]
+==== 6.2.1 Pre-proposal Phase
 
 NOTE: See link:pre-proposal-phase.php[guidelines and checklists]
 about writing a proposal.
@@ -614,7 +645,8 @@ The pre-proposal phase ends when the proposal is published by EMO
 and announced to the membership by the EMO.
 
 
-==== 6.2.2 Proposal Phase [[6_2_2_Proposal]]
+[#6_2_2_Proposal]
+==== 6.2.2 Proposal Phase
 
 NOTE: See link:proposal-phase.php[guidelines and checklists] about
 gathering support for a proposal.
@@ -629,7 +661,9 @@ at any point before the start of a creation review.
 The EMO will withdraw a proposal that has been inactive for
 more than six months.
 
-==== 6.2.3 Incubation Phase [[6_2_3_Incubation]]
+
+[#6_2_3_Incubation]
+==== 6.2.3 Incubation Phase
 
 NOTE: See link:incubation-phase.php[guidelines and checklists]
 about incubation.
@@ -664,7 +698,8 @@ may use the Parallel IP Process to reduce IP clearance
 process for new contributions.
 
 
-==== 6.2.4 Mature Phase [[6_2_4_Mature]]
+[#6_2_4_Mature]
+==== 6.2.4 Mature Phase
 
 NOTE: 
 See link:mature-phase.php[guidelines and checklists] about
@@ -676,10 +711,13 @@ and growing community; and Eclipse-quality technology. The project is
 now a mature member of the Eclipse community. Major releases continue
 to go through release reviews.
 
-==== 6.2.5 [Reserved] [[6_2_5_Top-Level]]
+
+[#6_2_5_Top-Level]
+==== 6.2.5 [Reserved]
 
 
-==== 6.2.6 Archived [[6_2_6_Archived]]
+[#6_2_6_Archived]
+==== 6.2.6 Archived
 
 NOTE: 
 See link:archived-phase.php[guidelines and checklists] for
@@ -696,7 +734,9 @@ As there must be good reasons to have terminated a project, the
 creation review provides a sufficiently high bar to
 prove that those reasons are no longer valid.
 
-=== 6.3 Reviews [[6_3_Reviews]]
+
+[#6_3_Reviews]
+=== 6.3 Reviews
 
 The Eclipse Development Process is predicated on open and
 transparent behavior. All major changes to Eclipse projects must be
@@ -713,23 +753,22 @@ If it is determined to be necessary, the project leadership chain
 (e.g. the PMC or EMO) may initiate a review on the project's behalf.
 
 All reviews have the same general process:
-<ol>
-* The project team will complete all required due diligence under the
+
+. The project team will complete all required due diligence under the
 link:ip_policy[Eclipse IP Policy] prior
 to initiating the review.
-* A project representative (project lead or committer) assembles
+. A project representative (project lead or committer) assembles
 review documentation.
-* A project representative presents the review documentation to
+. A project representative presents the review documentation to
 the project's PMC along with a request to proceed with the review
 and for approval of the corresponding documentation.
-* Upon receiving approval from the PMC, a project representative
+. Upon receiving approval from the PMC, a project representative
 makes a request to the EMO to schedule the review.
-* The EMO announces the review schedule and makes the documentation
+. The EMO announces the review schedule and makes the documentation
 available to the membership-at-large.
-* The EMO approves or fails the review based on the public
+. The EMO approves or fails the review based on the public
 comments, the scope of the project, and the purposes of the Eclipse
 Foundation as defined in the bylaws.
-</ol>
 
 The review documentation requirements, and criteria for the successful
 completion of each type of review
@@ -747,7 +786,9 @@ If any member believes that the EMO has acted incorrectly in
 approving or failing a review may appeal to the board of directors to review the
 EMO's decision.
 
-==== 6.3.1 Creation Review [[6_3_1_Creation_Review]]
+
+[#6_3_1_Creation_Review]
+==== 6.3.1 Creation Review
 
 NOTE: See link:creation-review.php[guidelines and checklists] about
 creation reviews.
@@ -768,7 +809,9 @@ and explain that connection to the current and future Eclipse
 membership, as well as justify the initial committers' participation
 in a meritocracy.
 
-==== 6.3.2 Graduation Review [[6_3_2_Graduation_Review]]
+
+[#6_3_2_Graduation_Review]
+==== 6.3.2 Graduation Review
 
 NOTE: 
 See link:graduation-review.php[[guidelines and checklists]]
@@ -779,7 +822,7 @@ The purpose of the graduation review is to mark a project's change
 from the incubation phase to the mature phase.
 
 The graduation review confirms that the project is/has:
-<ul>
+
 * A working and demonstrable code base of sufficiently high quality.
 * Active and sufficiently diverse communities appropriate to the
 size of the graduating code base: adopters, developers, and users.
@@ -787,11 +830,13 @@ size of the graduating code base: adopters, developers, and users.
 of Eclipse.
 * A credit to Eclipse and is functioning well within the larger
 Eclipse community.
-</ul>
+
 A graduation review is generally <<6_3_9_Combining_Reviews,combined>>
 with a release review.
 
-==== 6.3.3 Release Review [[6_3_3_Release_Review]]
+
+[#6_3_3_Release_Review]
+==== 6.3.3 Release Review
 
 NOTE: See link:release-review.php[[guidelines and checklists]] about
 Release Reviews.
@@ -803,13 +848,17 @@ remaining quality and/or architectural issues, and to verify that the
 project is continuing to operate according to the principles and
 purposes of Eclipse.
 
-==== 6.3.4 [Reserved] [[6_3_4_Promotion_Review]]
+
+[#6_3_4_Promotion_Review]
+==== 6.3.4 [Reserved]
 
 
-==== 6.3.5 [Reserved] [[6_3_5_Continuation_Review]]
+[#6_3_5_Continuation_Review]
+==== 6.3.5 [Reserved]
 
 
-==== 6.3.6 Termination Review [[6_3_6_Termination_Review]]
+[#6_3_6_Termination_Review]
+==== 6.3.6 Termination Review
 
 NOTE: See link:http://wiki.eclipse.org/Development_Resources/HOWTO/Review_Information_for_Project_Leads#Termination_.28Archive.29_Reviews[Termination Review "How To"] for more information.
 
@@ -819,25 +868,29 @@ the proposed archiving of a Project. The
 desired outcome is to find sufficient evidence of renewed interest
 and resources in keeping the project active.
 
-==== 6.3.7 [Reserved] [[6_3_7_Move_Review]]
+
+[#6_3_7_Move_Review]
+==== 6.3.7 [Reserved]
 
 
-==== 6.3.8 Restructuring Review [[6_3_8_Restructuring_Review]]
+[#6_3_8_Restructuring_Review]
+==== 6.3.8 Restructuring Review
 
 
 The purpose of a restructuring review is to notify the community of
 significant changes to one or more projects.
 Examples of "significant changes" include:
-<ul>
+
 * Movement of significant chunks of functionality from one project
 to another.
 * Modification of the project structure, e.g. combining multiple
 projects into a single project, or decomposing a single project into
 multiple projects.
 * Change of project scope.
-</ul>
 
-==== 6.3.9 Combining Reviews [[6_3_9_Combining_Reviews]]
+
+[#6_3_9_Combining_Reviews]
+==== 6.3.9 Combining Reviews
 
 
 Reviews can be combined at the discretion of the PMC and EMO.
@@ -859,13 +912,12 @@ project and several of its child projects generally makes sense.
 Combining release reviews for multiple unrelated projects most likely
 does not.
 
-=== 6.4 Releases [[6_4_Releases]]
 
-
+[#6_4_Releases]
+=== 6.4 Releases
 
 Any project, with exception of permanent incubators, may make a release.
 A release may include the code from any subset of the project's descendants.
-
 
 _(Most of this section is borrowed and paraphrased from the
 excellent link:http://www.apache.org/dev/release.html[Apache Software Foundation Releases FAQ].
@@ -893,7 +945,6 @@ encouraged). The only people who are supposed to know about such
 packages are the people following the developer mailing list and thus
 are aware of the limitations of such builds.
 
-
 _(Exception 2: milestone and release candidate builds)_
 Projects are encouraged to use an agile development process including
 regular milestones (for example, six week milestones). Milestones and
@@ -916,7 +967,6 @@ All official releases must have a successful
 <<6_3_3_Release_Review,release review>> before being made
 available for download.
 
-
 _(Exception 3: bug fix releases with no new features)_ Bug fix
 releases (x.y.z, e.g., 2.3.1) with no new features over the base
 release (e.g., 2.3) are allowed to be released without an additional
@@ -932,7 +982,9 @@ NOTE: See link:http://wiki.eclipse.org/Development_Resources/HOWTO/Conforming_In
 Releases for projects in the incubation phase must be labeled
 to indicate the incubation status of the project.
 
-=== 6.5 Grievance Handling [[6_5_Grievance_Handling]]
+
+[#6_5_Grievance_Handling]
+=== 6.5 Grievance Handling
 
 When a member has a concern about a project, the member will raise
 that concern with the project's leadership. If the member is not
@@ -960,7 +1012,7 @@ and including, rebooting or restarting a project with new Committers
 and leadership.
 
 
-[[7_Precedence]]
+[#7_Precedence]
 == 7. Precedence
 
 In the event of a conflict between this document and a
@@ -968,7 +1020,7 @@ board of directors-approved project charter, the most recently approved document
 will take precedence.
 
 
-[[8_Revisions]]
+[#8_Revisions]
 == 8. Revisions
 
 As specified in the bylaws, the EMO is responsible for maintaining
@@ -986,7 +1038,7 @@ process be made available to the membership at large via an
 appropriate mechanism in a timely, effective manner.
 
 
-[[8_1_Revision]]
+[#8_1_Revision]
 === 8.1 Revision 2.8
 
 This document was approved by the Eclipse Foundation Board of
@@ -994,7 +1046,7 @@ Directors in its meeting on November 2/2015. It takes effect (replacing
 all previous versions) on December 2/2015.
 
 
-[[8_2_History]]
+[#8_2_History]
 === 8.2 History
 
 Changes made in this document: 
