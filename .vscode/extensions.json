@@ -4,8 +4,14 @@
 	"recommendations": [
 		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
 		"christian-kohler.npm-intellisense",
+                "christian-kohler.path-intellisense",
 		"eg2.vscode-npm-script",
 		"DavidAnson.vscode-markdownlint",
-		"joaompinto.asciidoctor-vscode"
-	]
+                "EditorConfig.EditorConfig",
+                "formulahendry.auto-close-tag",
+                "joaompinto.asciidoctor-vscode",
+                "eamodio.gitlens",
+                "waderyan.gitblame",
+                "donjayamanne.githistory"
+        ]
 }
