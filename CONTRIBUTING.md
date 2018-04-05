@@ -12,7 +12,7 @@ Please have a look at [Get npm!](https://www.npmjs.com/get-npm)
 
 ## Installing Asciidoctor
 
-Please allow NPM to install all dependencies by running `npm run install`.
+Please allow NPM to install all dependencies by running `npm install`.
 
 ## AsciiDoc Syntax
 
