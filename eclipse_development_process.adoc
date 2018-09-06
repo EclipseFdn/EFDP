@@ -3,7 +3,7 @@
 :sectanchors:
 :sectlinks:
 :experimental:
-:bylawsUrl: https://www.eclipse.org/org/documents/Eclipse%20BYLAWS%202011_08_15%20Final.pdf
+:bylawsUrl: https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf
 :ipPolicyUrl: https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf
 :membershipAgreementUrl: https://www.eclipse.org/org/documents/eclipse_membership_agreement.pdf
 
