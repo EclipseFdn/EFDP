@@ -1,0 +1,29 @@
+# ChangeLog
+
+## [Unreleased]
+
+### Added
+- (Bug 496321) The notion of a Progress Review added to augment (and in some cases, replace) Release Reviews.
+- Content in the "Releases" has been reorganized.
+-- The requirement that a project engage in a Release Review prior to a release has been changed to a requirement that project can only release within a year of successfully engaging in either a Progress Review or a Release Review.
+
+### Changes
+- Converted document source format to Asciidoctor.
+- Removed the unnecessary statement that "Major releases continue to go through progress reviews." from the description of the Mature Phase.
+- Release Reviews have been recast as a special type of Progress Review.
+- The time period for votes and reviews is expressed in terms of simple "weeks" rather than "one week of generally accepted business days" which is unnecessarily complicated.
+- Content in the Releases section has been reorganized so that the three exceptions are grouped followed by the discussion regarding milestones.
+- (Bug 538613) Generalize "public comments" to "feedback" in section 6.3 "Reviews".
+- (Bug 484587) Change the title of section 2.3.1 to "Developers", and section 4.7 to "Committers".
+
+## [2015] - 2015-12-31
+
+### Changes
+- (Bug 376001) Make the process of retiring/removing project members explicit.
+- (Bug 415620) Streamline review requirements.
+- (Bug 416185) Rewrite the section on requirements to be more clear and succinct.
+- (Bug 418208) Appointed members of the Architecture Council are appointed to two year renewable terms.
+- (Bug 471367) Include "Freedom of Action" requirement in the EDP.
+- (Bug 477238) Generalize the expected output of projects.
+- (Bug 480526) Include definitions of terms required by other legal documents.
+- (Bug 463850) Only one mentor required for an incubating project.
