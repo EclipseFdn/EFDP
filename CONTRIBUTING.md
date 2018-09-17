@@ -12,20 +12,20 @@ Please have a look at [Get npm!](https://www.npmjs.com/get-npm)
 
 ## Installing Asciidoctor
 
-Please allow NPM to install all dependencies by running `npm run install`.
+Please allow NPM to install all dependencies by running `npm install`.
 
 ## AsciiDoc Syntax
 
-Please refere to  [AsciiDoc Syntax Quick Reference](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/).
+Please refere to  [AsciiDoc Syntax Quick Reference](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/). 
 
 ## Making changes
 
 Follow [AsciiDoc Recommended Practices](https://asciidoctor.org/docs/asciidoc-recommended-practices/) when making changes.
 In particular, the one sentence per line recommendation is important to us.
-This makes it much easier to view the diffs in git.
+This makes it much easier to view the diffs in Git.
 
 As a sanity check, `npm test` should be run before committing.
-It should be run automatically because npm install should setup Git a pre-coomit hook automatically.
+It should be run automatically because `npm install` will setup a Git pre-coomit hook.
 
 Sometimes, it isn’t possible to fix all lint issue, e.g., because you’d like to try out something for testing or discussion.
 In that case, you can use `git commit --no-verify` to temporarily bypass the check.
@@ -43,28 +43,30 @@ Discussion summary/results must be documented (and referenced) in pull requests 
 
 ### Sign-off Process
 
-All commits to code in the Eclipse organization **MUST** be signed off. This is done when committing from git passing the extra argument `-s` e.g.:
+All commits to code in the Eclipse organization **must** be signed off. 
+This is done when committing from Git passing the extra argument `-s` e.g.:
 
 ```shell
 git commit -s -m "Improve the EDP"
 ```
 
-For more info on contributing via Git, see [here](http://wiki.eclipse.org/Development_Resources/Contributing_via_Git).
+For more info on contributing via Git, see [the Eclipse Foundation Wiki](http://wiki.eclipse.org/Development_Resources/Contributing_via_Git).
 
 ### Small Changes
 
 Changes less than 10 lines or so (e.g.: correcting typos, small changes to `README.adoc` and such-like) can be made directly on a branch.
 
-Any change to `eclipse_development_process.adoc` and its related documents is **NEVER** considered a simple change. It requires a pull request and full EMO review and approval before merge.
+Any change to `eclipse_development_process.adoc` and its related documents is **never** considered a simple change. 
+It requires a pull request and full EMO review and approval before merge.
 
 ## Branching Model
 
 This repository uses two branches: `master` and `develop`.
 
-`master` is the reviewed and approved *"current"* version of the Eclipse Development Process documents.
+`master` is the *reviewed and approved* **current** version of the Eclipse Development Process documents.
 
-`develop` contains changes that are in progress (*"under development"*) and may not be *ready for production*, this is reviewed and approved by EMO and the Eclipse Foundation Board of Directors.
+`develop` contains changes that are in progress (*"under development"*) and may not be *ready for production*, this is changes not reviewed and approved by EMO and the Eclipse Foundation Board of Directors.
 
 From the `develop` branch, you create *topic* branches to work on individual features and fixes. Once your feature/fix is ready to go, you request a merge into `develop` by opening a pull request.
 
-Once develop is in a ready *"to be released"* state, we’ll create tag and a pull request to `master`. The pull request will be merged once all necessary reviews and approvals are in.
+Once develop is in a ready *"to be released"* state, we’ll create a tag and a pull request to `master`. The pull request will be merged once all necessary reviews and approvals are in.
