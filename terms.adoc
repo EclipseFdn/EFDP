@@ -1,0 +1,132 @@
+////
+Apply pseudo legal capitalization to the main document:
+cat eclipse_development_process.adoc | sed -E -e "`grep -P -oh "^.+(?=\s+\:\:)" terms.adoc | while read -r term; do echo -ne "s|$term|$term|gI;"; done`"
+////
+
+[glossary]
+
+Architecture Council ::
+The Eclipse Architecture Council (AC) is a council of experienced Eclipse committers responsible for identifying and tackling any issues that hinder continued technological success and innovation, widespread adoption, and future growth of Eclipse technology.
+
+Board of Directors ::
+The business and technical affairs of the Eclipse Foundation are managed by or under the direction of the Eclipse Board of Directors. 
+
+Check Point Review ::
+Check Point Review is a category of Review that includes: Creation Review, Progress Review, Release Review, and Graduation Review.
+
+Committer ::
+A committer is a software developer who has the necessary rights to make decisions regarding a Project.
+
+Contributor ::
+A Contributor is anybody who makes contributions to a Project.
+
+Creation Review ::
+A Creation Review is a type of Review that marks a Project's transition from the Proposal Phase to the Incubation Phase.
+
+Developer ::
+A Committer or Contributor.
+
+Ecosystem ::
+An Ecosystem is a system in which companies, organizations, and individuals all work together for mutual benefit.
+
+Eclipse Management Organization ::
+The Eclipse Management Organization (EMO) consists of the Eclipse Foundation staff, and the Eclipse Architecture and Planning Councils. 
+
+Graduation Review ::
+A Graduation Review is a type of Review that marks a Project's transition from the Incubation Phase to the Mature Phase.
+
+Incubation Branding ::
+Incubation Branding is the branding that must be applied to all Projects in the Incubation Phase.
+
+Incubation Phase ::
+The Incubation Phase is a Phase during which the Project Team develops the process, the community, and the technology for a new Project.
+
+Integration Build ::
+An Integration Build is a build of the Project content that is generated periodically and made available to the Developer community for testing purposes.
+
+Major Release ::
+A Major Release is a type of Release that includes either significant new functionality and/or breaking changes.
+
+Mature Phase ::
+The Mature Phase is a Phase during which a Project operates with an open and transparent process, has an actively involved and growing community, and produces Eclipse-quality technology.
+
+Membership at Large ::
+The Membership at Large (or _Membership_) refers to all members of all types, as defined by the {bylawsUrl}[Bylaws of the Eclipse Foundation].
+
+Milestone ::
+A Milestone is a build of the project content intended for limited distribution to demonstrate progress and solicit feedback. 
+
+Minor Release ::
+A Minor Release is a type of Release that includes new features over a Major Release.
+
+Nightly Build ::
+A Nightly Build is a build of the project content that is generated nightly and made available to the Developer community for testing purposes.
+
+Permanent Incubator ::
+A Permanent Incubator is a Project that is intended to perpetually remain in the Incubation Phase.
+
+Phase ::
+A Phase is a stage in the Project lifecycle. See Pre-proposal Phase, Proposal Phase, Incubation Phase, and Mature Phase.
+
+Planning Council ::
+The Eclipse Planning Council is a council that is responsible for cross-project planning, user interface conflicts, and all other coordination and integration issues.
+
+Pre-proposal Phase ::
+The Pre-proposal Phase is a Phase during which a new Project Proposal is created. 
+
+Progress Review ::
+A Progress Review a type of Review that is used by a Project Team to summarize the accomplishments of the Project, verify that the Eclipse Development Process and IP Policy have been followed, and to highlight any remaining quality and/or architectural issues.
+
+Project ::
+A Project is the primary functional unit for open source development, with a dedicated team of developers that work within the bounds of a well defined Scope using infrastructure and services provided by the Eclipse Foundation.
+
+Project Lead ::
+A Project Lead, the first level in the Project Leadership Chain, is responsible for the overall well-being of a specific Project and serves as the primary liaison between that Project and the EMO.
+
+Project Leadership Chain ::
+The Project Leadership Chain is composed of a Project's Project Lead(s), the leadership of the parent Project (if any), the PMC Leads and PMC Members for the Top-Level project, the EMO, and the EMO(ED).
+
+Project Management Committee ::
+A Project Management Committee (PMC) is the primary leadership of a Top-Level Project with responsibility to ensure that the Projects within its purview are active and viable.
+
+Project Proposal ::
+A Project Proposal (or just _Proposal_) is a document that is presented to the PMC, Membership at Large, and EMO to describe a potential new Project.
+
+Project Team ::
+A Project Team is the collective of Committers with responsibilities and privileges on a specific Project.
+
+Proposal Phase ::
+The Proposal Phase is a Phase during which a Project Proposal is presented to the community and Membership at Large to solicit feedback.
+
+Release ::
+A Release is a specifically identifiable set of artifacts that are collectively assigned a durable tag in source control and distributed in a semantically versioned durable form of that collection intended by the developers of the project for third-party use.
+
+Release Candidate ::
+A Release Candidate is a feature-complete Milestone.
+
+Release Review ::
+A Release Review is a type of Progress Review that is aligned directly with a specific Release.
+
+Restructuring Review ::
+A Restructuring review is a type of Review that is used to notify the community of significant changes to one or more Projects.
+
+Review ::
+A Review is formally designated period of time during which the Project Management Committee, the Membership at Large, and the EMO are given an opportunity to survey the current state of a Project, provide feedback, and validate that the Project is in good standing.
+
+Scope :: 
+The Scope is the defined range of activities to be undertaken by a Project. The Project Team must operate within the bounds defined by the Project's Scope.
+
+Service Release ::
+A Service Release, or _Bug-fix Release_ is a type of Release that includes no significant changes or additions over the base Release.
+
+Subproject ::
+A synonym for Project.
+
+Termination Review ::
+A Termination Review is a type of Review that provides a final opportunity for a Project Team, the Project Leadership Chain, and the Eclipse Membership to consider the proposed archival of a Project.
+
+Top-Level Project ::
+A Top-Level Project is an organizational unit that defines an overall mission and scope for a collection of Projects.
+
+Top-Level Project Charter ::
+A Top-Level Project Charter describes the mission, purpose, scope, and operational rules for a Top-Level Project.
