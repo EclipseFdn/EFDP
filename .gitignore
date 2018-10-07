@@ -62,3 +62,4 @@ package-lock.json
 
 # for now ignore any generated html
 .html
+/target/
