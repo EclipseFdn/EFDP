@@ -99,7 +99,7 @@ Proposal Phase ::
 The Proposal Phase is a Phase during which a Project Proposal is presented to the community and Membership at Large to solicit feedback.
 
 Release ::
-A Release is a specifically identifiable set of artifacts that are collectively assigned a durable tag in source control and distributed in a semantically versioned durable form of that collection intended by the developers of the project for third-party use.
+A Release is the declaration of a specific durable tag in source control and its identifiable set of derived artifacts,  distributed in a durable form by the developers of the project for third-party use.
 
 Release Candidate ::
 A Release Candidate is a feature-complete Milestone.
