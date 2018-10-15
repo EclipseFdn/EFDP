@@ -1,6 +1,0 @@
-[#8_2_History]
-=== 8.2 History
-
-Changes made in this document:
-
-include::CHANGELOG[leveloffset=+3]

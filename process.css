@@ -1,0 +1,128 @@
+.imageblock {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.imageblock img {
+	max-width: 100%;
+}
+#toc { border-bottom: 0 solid #dddddd; padding-bottom: 0.5em; }
+#toc > ul { margin-left: 0.13333em; }
+#toc ul.sectlevel0 > li > a { font-style: italic; }
+#toc ul.sectlevel0 ul.sectlevel1 { margin: 0.5em 0; }
+#toc ul { font-family: helvetica, arial, freesans, clean, sans-serif; list-style-type: none; }
+#toc a { text-decoration: none; }
+#toc a:active { text-decoration: underline; }
+
+div.admonitionblock {
+	margin-bottom: 1em;
+	margin-left: 3em;
+	margin-right: 3em;	
+	padding: 3px;
+	background-color: #EEEEEE;
+	border-radius: 10px;
+}
+
+div.admonitionblock td.icon, td.content {
+	vertical-align: top;
+}
+
+div.admonitionblock td.icon div.title {
+	height: 35px;
+	margin-left: 35px;
+	margin-right: 1em;
+	font-weight: bold;
+}
+
+div.admonitionblock div.title {
+	visibility: hidden;
+	width: 0;'
+}
+
+div.note td.icon {
+	background-image: url("/projects/handbook/images/note.png");
+	background-repeat: no-repeat;
+}
+
+div.warning td.icon {
+	background-image: url("/projects/handbook/images/warning.png");
+	background-repeat: no-repeat;
+}
+
+div.exampleblock {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 1em;
+}
+
+div.exampleblock div.title {
+	font-style: italic;
+}
+
+div.exampleblock div.content {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+
+div.listingblock {
+	margin-bottom: 1em;
+	margin-left: 3em;
+	margin-right: 3em;	
+	padding: 3px;
+}
+
+div.ulist li {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+div.ulist li p {
+	padding-bottom: 0;
+	margin-bottom: 2px;
+}
+
+div.olist li {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+div.olist li p {
+	padding-bottom: 0;
+	margin-bottom: 2px;
+}
+
+div.colist {
+	margin-left: 3em;
+}
+
+div.colist li {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+div.colist li p {
+	padding-bottom: 0;
+	margin-bottom: 2px;
+}
+
+div.sect1 h2 {
+	font-weight: bold;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+span.menuseq b.caret {
+	vertical-align: top;
+	margin-right: 2px;
+	border-top: 0 solid transparent
+}
+
+
+ins {
+	color: green;
+}
+
+del {
+	color: red;
+}

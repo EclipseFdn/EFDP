@@ -59,7 +59,7 @@
 						<require>asciidoctor-diagram</require>
 					</requires>
 					<backend>xhtml5</backend>
-					<sourceHighlighter>coderay</sourceHighlighter>
+					<sourceHighlighter></sourceHighlighter>
 					<attributes>
 						<endpoint-url>http://www.eclipse.org</endpoint-url>
 						<project-version>${project.version}</project-version>
@@ -74,7 +74,7 @@
 						<idseparator>-</idseparator>
 						<docinfo1>true</docinfo1>
 						<embedAssets>true</embedAssets>
-						<stylesheet>handbook.css</stylesheet>
+						<stylesheet>process.css</stylesheet>
 					</attributes>
 					<resources>
 						<resource>
@@ -96,6 +96,19 @@
 						</goals>
 						<configuration>
 							<sourceDocumentName>eclipse_development_process.adoc</sourceDocumentName>
+							<headerFooter>false</headerFooter>
+							<attributes>
+							</attributes>
+						</configuration>
+					</execution>
+					<execution>
+						<id>asciidoc-to-html-baseline</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>process-asciidoc</goal>
+						</goals>
+						<configuration>
+							<sourceDocumentName>baseline.adoc</sourceDocumentName>
 							<attributes>
 							</attributes>
 						</configuration>

@@ -1,0 +1,34 @@
+/*
+ * Copyright (C) Eclipse Foundation, Inc. and others. 
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+ */
+ digraph {
+	bgcolor=transparent;
+	rankdir=TB;
+	rank=same;
+	node [shape=box;style=filled;fillcolor=white;fontsize=12];
+
+	tlp[shape="record";label="{Top Level Project|{👫👭👬|🗎💿📦🕸}}"]
+	project[shape="record";label="<f0>Project|{<f1>👫👭|<f2>🗎💿📦🕸}"]	
+	subproject1[shape="record";label="Project|{👫👭👬|🗎💿📦🕸}"]
+	subproject2[shape="record";label="Project|{👭👬|🗎💿📦🕸}"]
+	
+	node [shape=plaintext;fillcolor=transparent;fontsize=10]
+	committers[label="Committers\nand resources"]
+	
+	tlp -> project [dir="back",label="parent"];
+	project-> subproject1[xlabel="child"];
+	project -> subproject2[label="child"];
+	
+	edge [color=grey]
+	committers -> project:f1[]
+	
+	// Add an invisible node to force alignment of the nodes
+	stuff[style="invis"]
+	stuff -> project:f0[style="invis"]
+}
