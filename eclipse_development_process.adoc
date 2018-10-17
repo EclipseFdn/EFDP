@@ -13,18 +13,18 @@
 [#1_Purpose]
 == 1. Purpose
 
-This document describes the development process for the Eclipse Foundation. In particular, it describes how the membership at large, the board of directors, other constituents of the ecosystem, and the Eclipse Management Organization (EMO) lead, influence, and collaborate with Eclipse projects to achieve these Eclipse purposes:
+This document describes the development process for the Eclipse Foundation. In particular, it describes how the Membership at Large, the Board of Directors, other constituents of the Ecosystem, and the Eclipse Management Organization (EMO) lead, influence, and collaborate with Eclipse Projects to achieve these Eclipse purposes:
 
 ____
-The Eclipse technology is a vendor-neutral, open development platform supplying frameworks and exemplary, extensible tools (the "Eclipse Platform"). Eclipse Platform tools are exemplary in that they verify the utility of the Eclipse frameworks, illustrate the appropriate use of those frameworks, and support the development and maintenance of the Eclipse Platform itself; Eclipse Platform tools are extensible in that their functionality is accessible via documented programmatic interfaces. The purpose of Eclipse Foundation Inc., is to advance the creation, evolution, promotion, and support of the Eclipse Platform and to cultivate both an open source community and an ecosystem of complementary products, capabilities, and services.
+The Eclipse technology is a vendor-neutral, open development platform supplying frameworks and exemplary, extensible tools (the "Eclipse Platform"). Eclipse Platform tools are exemplary in that they verify the utility of the Eclipse frameworks, illustrate the appropriate use of those frameworks, and support the development and maintenance of the Eclipse Platform itself; Eclipse Platform tools are extensible in that their functionality is accessible via documented programmatic interfaces. The purpose of Eclipse Foundation Inc., is to advance the creation, evolution, promotion, and support of the Eclipse Platform and to cultivate both an open source community and an Ecosystem of complementary products, capabilities, and services.
 ____
 
 This document has the following sections:
 
 * link:#2_Principles[Principles] outlines the basic principles upon which the development process is based.
 * link:#3_Requirements[Requirements] describes the requirements that the Eclipse community has for its development process.
-* link:#4_Structure_and_Organization[Structure and Organization] specifies the structure and organization of the projects and project community at Eclipse.
-* link:#6_Development_Process[Development Process] outlines the lifecycle and processes required of all Eclipse projects.
+* link:#4_Structure_and_Organization[Structure and Organization] specifies the structure and organization of the Projects and Project community at Eclipse.
+* link:#6_Development_Process[Development Process] outlines the lifecycle and processes required of all Eclipse Projects.
 
 This document defines terms used elsewhere in Eclipse governance documents including the {bylawsUrl}[Bylaws], {membershipAgreementUrl}[Membership Agreement], and {ipPolicyUrl}[IP Policy].
 
@@ -40,71 +40,71 @@ The following describes the guiding principles used in developing this developme
 [#2_1_Open_Source_Rules_of_Engagement]
 === 2.1 Open Source Rules of Engagement
 
-* *Open* - Eclipse is open to all; Eclipse provides the same opportunity to all. Everyone participates with the same rules; there are no rules to exclude any potential contributors which include, of course, direct competitors in the marketplace.
-* *Transparent* - Project discussions, minutes, deliberations, project plans, plans for new features, and other artifacts are open, public, and easily accessible.
+* *Open* - Eclipse is open to all; Eclipse provides the same opportunity to all. Everyone participates with the same rules; there are no rules to exclude any potential Contributors which include, of course, direct competitors in the marketplace.
+* *Transparent* - Project discussions, minutes, deliberations, Project plans, plans for new features, and other artifacts are open, public, and easily accessible.
 * *Meritocracy* - Eclipse is a meritocracy. The more you contribute the more responsibility you will earn. Leadership roles in Eclipse are also merit-based and earned by peer acclaim.
 
 [#2_2_Eclipse_Ecosystem]
 === 2.2 Eclipse Ecosystem
 
-Eclipse as a brand is the sum of its parts (all of the projects), and projects should strive for the highest possible quality in extensible frameworks, exemplary applications, transparent processes, and project openness.
+Eclipse as a brand is the sum of its parts (all of the Projects), and Projects should strive for the highest possible quality in extensible frameworks, exemplary applications, transparent processes, and Project openness.
 
-The Eclipse Foundation has the responsibility to _...cultivate...an ecosystem of complementary products, capabilities, and services..._. It is therefore a key principle that the Eclipse Development Process ensures that the projects are managed for the benefit of both the open source community and the ecosystem members. To this end, all Eclipse projects are required to:
+The Eclipse Foundation has the responsibility to _...cultivate...an Ecosystem of complementary products, capabilities, and services..._. It is therefore a key principle that the Eclipse Development Process ensures that the Projects are managed for the benefit of both the open source community and the Ecosystem members. To this end, all Eclipse Projects are required to:
 
-* communicate their project plans and plans for new features (major and minor) in a timely, open and transparent manner;
+* communicate their Project plans and plans for new features (major and minor) in a timely, open and transparent manner;
 * create high-quality frameworks capable of supporting the building of commercial grade products on top of them; and
 * ship extensible, exemplary applications which help enable a broad community of users.
 
 [#2_3_Three_Communities]
 === 2.3 Three Communities
 
-Essential to the purposes of the Eclipse Foundation is the development of three inter-related communities around each project:
+Essential to the purposes of the Eclipse Foundation is the development of three inter-related communities around each Project:
 
 [#2_3_1_Committers]
 ==== 2.3.1 Developers
 
-A thriving, diverse, and active community of developers is the key component of any Eclipse project. Ideally, this community should be an open, transparent, inclusive, and diverse community of committers and (non-committer) contributors. Attracting new contributors and committers to an open source project is time consuming and requires active recruiting, not just passive "openness". The project leadership must make reasonable efforts to encourage and nurture promising new contributors.
+A thriving, diverse, and active community of Developers is the key component of any Eclipse Project. Ideally, this community should be an open, transparent, inclusive, and diverse community of Committers and (non-Committer) Contributors. Attracting new Contributors and Committers to an open source Project is time consuming and requires active recruiting, not just passive "openness". The Project Leadership must make reasonable efforts to encourage and nurture promising new Contributors.
 
 [#2_3_2_Users]
 ==== 2.3.2 Users
 
-An active and engaged user community is proof-positive that the project's exemplary applications are useful and needed. Furthermore, a large user community is one of the key factors in creating a viable ecosystem around an Eclipse project, thus encouraging additional open source and commercial organizations to participate. Like all good things, a user community takes time and effort to bring to fruition, but once established is typically self-sustaining.
+An active and engaged user community is proof-positive that the Project's exemplary applications are useful and needed. Furthermore, a large user community is one of the key factors in creating a viable Ecosystem around an Eclipse Project, thus encouraging additional open source and commercial organizations to participate. Like all good things, a user community takes time and effort to bring to fruition, but once established is typically self-sustaining.
 
 [#2_3_3_Adopters]
 ==== 2.3.3 Adopters
 
-An active and engaged adopter community is the only way to prove that an Eclipse project is providing extensible frameworks and applications accessible via documented APIs. Reuse of the frameworks within the companies that are contributing to the project is necessary, but not sufficient to demonstrate an adopter community. Again, creating, encouraging, and nurturing an adopter community outside of the project's developers takes time, energy, and creativity by the project leadership, but is essential to the project's long-term open source success.
+An active and engaged Adopter community is the only way to prove that an Eclipse Project is providing extensible frameworks and applications accessible via documented APIs. Reuse of the frameworks within the companies that are contributing to the Project is necessary, but not sufficient to demonstrate an Adopter community. Again, creating, encouraging, and nurturing an Adopter community outside of the Project's Developers takes time, energy, and creativity by the Project Leadership, but is essential to the Project's long-term open source success.
 
-The Eclipse community considers the absence of any one or more of these communities as proof that the project is not sufficiently open, transparent, and inviting, and/or that it has emphasized applications at the expense of extensible frameworks or vice versa.
+The Eclipse community considers the absence of any one or more of these communities as proof that the Project is not sufficiently open, transparent, and inviting, and/or that it has emphasized applications at the expense of extensible frameworks or vice versa.
 
 [#2_4_Clear_Concise_and_Evolving]
 === 2.4 Clear, Concise, and Evolving
 
-It is an explicit goal of the development process to be as clear and concise as possible so as to help the project teams navigate the complexities, avoid the pitfalls, and become successful as quickly as possible.
+It is an explicit goal of the development process to be as clear and concise as possible so as to help the Project Teams navigate the complexities, avoid the pitfalls, and become successful as quickly as possible.
 
-This document imposes requirements and constraints on the operation of the projects, and it does so on behalf of the larger Eclipse community. It is an explicit goal of the development process to provide as much freedom and autonomy to the projects as possible while ensuring the collective qualities benefit the entire Eclipse community.
+This document imposes requirements and constraints on the operation of the Projects, and it does so on behalf of the larger Eclipse community. It is an explicit goal of the development process to provide as much freedom and autonomy to the Projects as possible while ensuring the collective qualities benefit the entire Eclipse community.
 
 Similarly, this document should not place undue constraints on the EMO or the board that prevent them from governing the process as necessary. We cannot foresee all circumstances and as such should be cautious of being overly prescriptive and/or requiring certain fixed metrics.
 
-The frameworks, applications, projects, processes, community, and even the definition of quality continues to, and will continue to, evolve. Creating rules or processes that force a static snapshot of any of these is detrimental to the health, growth, and ecosystem impact of Eclipse.
+The frameworks, applications, Projects, processes, community, and even the definition of quality continues to, and will continue to, evolve. Creating rules or processes that force a static snapshot of any of these is detrimental to the health, growth, and Ecosystem impact of Eclipse.
 
-Part of the strength of this document is in what it does not say, and thus opens for community definition through convention, guidelines, and public consultation. A document with too much structure becomes too rigid and prevents the kind of innovation and change we desire for Eclipse. In areas where this document is vague, we expect the projects and members to engage the community-at-large to clarify the current norms and expectations.
+Part of the strength of this document is in what it does not say, and thus opens for community definition through convention, guidelines, and public consultation. A document with too much structure becomes too rigid and prevents the kind of innovation and change we desire for Eclipse. In areas where this document is vague, we expect the Projects and members to engage the community-at-large to clarify the current norms and expectations.
 
 [#2_5_Freedom_of_Action]
 === 2.5 Freedom of Action
 
-Projects are required to engage in practices that ensure the continued viability of the project, independent from the continued availability of external resources and services, or continued participation on any single individual, organization, or group.
+Projects are required to engage in practices that ensure the continued viability of the Project, independent from the continued availability of external resources and services, or continued participation on any single individual, organization, or group.
 
-In practical terms, projects are required to use resources and services approved by the Eclipse Foundation. This includes (but is not limited to) all source code management, distribution channels for artifacts, issue tracking, documentation, and public communication channels.
+In practical terms, Projects are required to use resources and services approved by the Eclipse Foundation. This includes (but is not limited to) all source code management, distribution channels for artifacts, issue tracking, documentation, and public communication channels.
 
 [#3_Requirements]
 == 3. Requirements
 
-This document is entirely composed of requirements. In addition to the requirements specified in this development process, the EMO is instructed to clarify, expand, and extend this process by creating a set of development guidelines to advance the creation, evolution, promotion, and support of the open source projects; and to cultivate both a community and an ecosystem of complementary products and services.
+This document is entirely composed of requirements. In addition to the requirements specified in this development process, the EMO is instructed to clarify, expand, and extend this process by creating a set of development guidelines to advance the creation, evolution, promotion, and support of the open source Projects; and to cultivate both a community and an Ecosystem of complementary products and services.
 
 Projects that fail to perform the required behaviors will be terminated by the EMO.
 
-The EMO is not permitted to override or ignore the requirements listed in this document without the express written endorsement of the board of directors.
+The EMO is not permitted to override or ignore the requirements listed in this document without the express written endorsement of the Board of Directors.
 
 [#3_1_Requirements_and_Guidelines]
 === 3.1 [Reserved]
@@ -112,16 +112,16 @@ The EMO is not permitted to override or ignore the requirements listed in this d
 [#4_Structure_and_Organization]
 == 4. Project Structure and Organization
 
-A project is the main operational unit at Eclipse. Specifically, all open source software development at Eclipse occurs within the context of a project. Projects have leaders, developers, code, builds, downloads, websites, and more. Projects are more than just the sum of their many parts, they are the means by which open source work is organized when presented to the communities of developers, adopters, and users. Projects provide structure that helps developers expose their hard work to a broad audience of consumers.
+A Project is the main operational unit at Eclipse. Specifically, all open source software development at Eclipse occurs within the context of a Project. Projects have leaders, Developers, code, builds, downloads, websites, and more. Projects are more than just the sum of their many parts, they are the means by which open source work is organized when presented to the communities of Developers, Adopters, and users. Projects provide structure that helps Developers expose their hard work to a broad audience of consumers.
 
-Eclipse projects are organized hierarchically. A special type of project, _top-level projects_, sit at the top of the hierarchy. Each top-level project contains one or more projects. Each project may itself contain zero or more projects. A project that has one or more projects is said to be the _parent_ of those projects. A project that has a parent is oftentimes referred to as a _subproject_. The term project refers to either a top-level project or a subproject.
+Eclipse Projects are organized hierarchically. A special type of Project, _Top-Level Projects_, sit at the top of the hierarchy. Each Top-Level Project contains one or more Projects. Each Project may itself contain zero or more Projects. A Project that has one or more Projects is said to be the _parent_ of those Projects. A Project that has a parent is oftentimes referred to as a _Subproject_. The term Project refers to either a Top-Level Project or a Subproject.
 
-The descendants of a project are the project itself and transitive closure of its child projects. The top parent of a project is the top-level project at the top of the hierarchy.
+The descendants of a Project are the Project itself and transitive closure of its child Projects. The top parent of a Project is the Top-Level Project at the top of the hierarchy.
 
 Projects are the unit entity for:
 
-* committers;
-* code and releases;
+* Committers;
+* code and Releases;
 * intellectual property (IP) records; and
 * community awareness
 
@@ -130,134 +130,134 @@ As defined by Bylaws of Eclipse Foundation - Article VII, the "Eclipse Managemen
 [#4_1_Committers]
 === 4.1 Committers
 
-Each project has exactly one set of committers. Each project's set of committers is distinct from that of any other project, including subprojects or parent projects. All project committers have equal rights and responsibilities within the project. Partitioning of responsibility within a project is managed using social convention. A project may, for example, divide itself into logical partitions of functionality; it is social convention that prevents committers from one logical partition from doing inappropriate work in another. If finer-grained management of committer responsibilities is required, a project should consider partitioning (via a link:#6_3_8_Restructuring_Review[Restructuring Review]) into two or more subprojects.
+Each Project has exactly one set of Committers. Each Project's set of Committers is distinct from that of any other Project, including Subprojects or parent Projects. All Project Committers have equal rights and responsibilities within the Project. Partitioning of responsibility within a Project is managed using social convention. A Project may, for example, divide itself into logical partitions of functionality; it is social convention that prevents Committers from one logical partition from doing inappropriate work in another. If finer-grained management of Committer responsibilities is required, a Project should consider partitioning (via a link:#6_3_8_Restructuring_Review[Restructuring Review]) into two or more Subprojects.
 
-The committers of a project have the exclusive right to elect new committers to their project; no other group, including a parent project, can force a project to accept a new committer.
+The Committers of a Project have the exclusive right to elect new Committers to their Project; no other group, including a parent Project, can force a Project to accept a new Committer.
 
-There is no roll-up of committers: the set of committers on a project is exactly that set of people who have been explicitly elected into that role for the project (i.e. being a committer on a subproject does not give you any automatic rights on the "parent" project or any child project).
+There is no roll-up of Committers: the set of Committers on a Project is exactly that set of people who have been explicitly elected into that role for the Project (i.e. being a Committer on a Subproject does not give you any automatic rights on the "parent" Project or any child Project).
 
-In practical terms, each project has a single UNIX group of its committers that provides write-access to the project's resources. Pictorially below, we see that a project, in addition to the various resources and committers it has, can also have zero or more subprojects. Each of these subprojects has its own distinct set of committers and resources.
+In practical terms, each Project has a single UNIX group of its Committers that provides write-access to the Project's resources. Pictorially below, we see that a Project, in addition to the various resources and Committers it has, can also have zero or more Subprojects. Each of these Subprojects has its own distinct set of Committers and resources.
 
 image::images/resources-291x300.png[]
 
 [#4_2_Code_and_Releases]
 === 4.2 Code and Resources
 
-Each project owns and maintains a collection of resources.
+Each Project owns and maintains a collection of resources.
 
-Resources may include source code, a project website, space on the downloads server, access to build resources, and other services provided by the Eclipse Foundation infrastructure. The exact infrastructure provided by the Eclipse Foundation varies over time and is defined outside this process document.
+Resources may include source code, a Project website, space on the downloads server, access to build resources, and other services provided by the Eclipse Foundation infrastructure. The exact infrastructure provided by the Eclipse Foundation varies over time and is defined outside this process document.
 
-A project is not strictly required to make use of all the resources made available; a project might, for example, opt to _not_ maintain a source code repository. Such a project might operate as an organizational unit, or container, for several subprojects. Similarly, a project might opt to provide a consolidated website, build and/or download site for its subprojects (the subprojects would then not require those resources for themselves).
+A Project is not strictly required to make use of all the resources made available; a Project might, for example, opt to _not_ maintain a source code repository. Such a Project might operate as an organizational unit, or container, for several Subprojects. Similarly, a Project might opt to provide a consolidated website, build and/or download site for its Subprojects (the Subprojects would then not require those resources for themselves).
 
-Namespaces are assigned to a project by the EMO. All project source code must be organized in the assigned namespaces and projects can only release code under their own namespace (that is, they cannot infringe on another Eclipse project's namespace). Projects should work with their PMCs and the EMO to request exceptions to this rule, and with their mentors and PMC if there are questions regarding the use of the namespace.
+Namespaces are assigned to a Project by the EMO. All Project source code must be organized in the assigned namespaces and Projects can only Release code under their own namespace (that is, they cannot infringe on another Eclipse Project's namespace). Projects should work with their PMCs and the EMO to request exceptions to this rule, and with their mentors and PMC if there are questions regarding the use of the namespace.
 
 [#4_3_IP_Records]
 === 4.3 Intellectual Property (IP) Records
 
-A project at any level may receive IP clearance for contributions and third-party libraries. IP approval will often include the same approval for all descendant projects. However, IP clearance will only be granted at the most appropriate technical level.
+A Project at any level may receive IP clearance for contributions and third-party libraries. IP approval will often include the same approval for all descendant Projects. However, IP clearance will only be granted at the most appropriate technical level.
 
 [#4_4_Community_Awareness]
 === 4.4 Community Awareness
 
-Projects are the level of communication with the larger Eclipse community and ecosystem. Projects may either have their own communications (website, mailing lists, forums/newsgroups, etc) or they may be part of a parent project's communications (website, mailing list, forums/newsgroups, etc). In either case, the project is required to maintain an open and public communication channel with the Eclipse community including, but not limited to, project plans, schedules, and design discussions.
+Projects are the level of communication with the larger Eclipse community and Ecosystem. Projects may either have their own communications (website, mailing lists, forums/newsgroups, etc) or they may be part of a parent Project's communications (website, mailing list, forums/newsgroups, etc). In either case, the Project is required to maintain an open and public communication channel with the Eclipse community including, but not limited to, Project plans, schedules, and design discussions.
 
-All projects must make the communication channels easy to find. Projects are further required to make the separate communication channels of their child projects (if any) easy to find.
+All Projects must make the communication channels easy to find. Projects are further required to make the separate communication channels of their child Projects (if any) easy to find.
 
-Any project in the incubation phase must correctly identify its website and releases. A project with at least one descendant project in incubation phase must correctly annotate its own website so as to notify the Eclipse community that incubating projects exist in its hierarchy. Any release containing code from an incubation phase project must be correctly labeled, i.e., the incubation phase is viral and expands to cover all releases in which it is included.
+Any Project in the Incubation Phase must correctly identify its website and Releases. A Project with at least one descendant Project in Incubation Phase must correctly annotate its own website so as to notify the Eclipse community that incubating Projects exist in its hierarchy. Any Release containing code from an Incubation Phase Project must be correctly labeled, i.e., the Incubation Phase is viral and expands to cover all Releases in which it is included.
 
 [#4_5_Scope]
 === 4.5 Scope
 
-Each top-Level project has a Charter which describes the purpose, scope, and operational rules for the top-level project. The charter should refer to, and describe any refinements to, the provisions of this development process. The board of directors approves the charter of each top-level project.
+Each Top-Level Project has a Charter which describes the purpose, Scope, and operational rules for the Top-Level Project. The charter should refer to, and describe any refinements to, the provisions of this development process. The Board of Directors approves the charter of each Top-Level Project.
 
-Subprojects do not have separate charters; subprojects operate under the charter of their parent top-Level project.
+Subprojects do not have separate charters; Subprojects operate under the charter of their parent Top-Level Project.
 
-All projects have a defined scope and all initiatives within that project are required to reside within that scope. Initiatives and code that is found to be outside the scope of a project may result in the termination of the project. The scope of top-level projects is part of the charter, as approved by the board of directors of the Eclipse Foundation.
+All Projects have a defined Scope and all initiatives within that Project are required to reside within that Scope. Initiatives and code that is found to be outside the Scope of a Project may result in the termination of the Project. The Scope of Top-Level Projects is part of the charter, as approved by the Board of Directors of the Eclipse Foundation.
 
-The scope of a subproject is defined by the initial project proposal as reviewed and approved by the Project Management Committee (PMC) (as further defined below) of the project's top parent and by the EMO. A project's scope must be a subset of its parent's scope.
+The Scope of a Subproject is defined by the initial Project Proposal as Reviewed and approved by the Project Management Committee (PMC) (as further defined below) of the Project's top parent and by the EMO. A Project's Scope must be a subset of its parent's Scope.
 
 [#4_6_Leaders]
 === 4.6 Leaders
 
-There are two different types of project leadership at Eclipse: The Project Management Committee (PMC) and project leads. Both forms of leadership are required to:
+There are two different types of Project Leadership at Eclipse: The Project Management Committee (PMC) and Project Leads. Both forms of leadership are required to:
 
-* ensure that their project is operating effectively by guiding the overall direction and by removing obstacles, solving problems, and resolving conflicts;
+* ensure that their Project is operating effectively by guiding the overall direction and by removing obstacles, solving problems, and resolving conflicts;
 * operate using open source rules of engagement: meritocracy, transparency, and open participation; and
-* ensure that the project and its subprojects (if any) conform to the Eclipse Foundation IP policy and procedures.
+* ensure that the Project and its Subprojects (if any) conform to the Eclipse Foundation IP policy and procedures.
 
-The leadership chain for a project is composed of the project's project lead(s), the leadership of the parent project (if any), the PMC leads and PMC members for the top-level project, the EMO, and the EMO(ED).
+The leadership chain for a Project is composed of the Project's Project Lead(s), the leadership of the parent Project (if any), the PMC leads and PMC members for the Top-Level Project, the EMO, and the EMO(ED).
 
-In exceptional situations—such as projects with zero active committers, disruptive committers, or no effective project leads—the project leadership chain has the authority to make changes (add, remove) to the set of committers and/or project leads of that project, and otherwise act on behalf of the project lead.
+In exceptional situations—such as Projects with zero active Committers, disruptive Committers, or no effective Project Leads—the Project Leadership Chain has the authority to make changes (add, remove) to the set of Committers and/or Project Leads of that Project, and otherwise act on behalf of the Project Lead.
 
 [#4_6_1_PMC]
 ==== 4.6.1 Project Management Committee (PMC)
 
-Top-level projects are managed by a Project Management Committee (PMC). A PMC has one or more PMC leads and zero or more PMC Members. Together the PMC provides oversight and overall leadership for the projects that fall under their top-level project. The PMC as a whole, and the PMC leads in particular, are ultimately responsible for ensuring that the Eclipse Development Process is understood and followed by their projects. The PMC is additionally responsible for maintaining the top-level project's charter.
+Top-Level Projects are managed by a Project Management Committee (PMC). A PMC has one or more PMC leads and zero or more PMC Members. Together the PMC provides oversight and overall leadership for the Projects that fall under their Top-Level Project. The PMC as a whole, and the PMC leads in particular, are ultimately responsible for ensuring that the Eclipse Development Process is understood and followed by their Projects. The PMC is additionally responsible for maintaining the Top-Level Project's charter.
 
-PMC leads are approved by the board of directors; PMC members are elected by the existing PMC leads and members, and approved by the EMO(ED).
+PMC leads are approved by the Board of Directors; PMC members are elected by the existing PMC leads and members, and approved by the EMO(ED).
 
 In the unlikely event that a member of the PMC becomes disruptive to the process or ceases to contribute for an extended period, the member may be removed by the unanimous vote of the remaining PMC members, subject to approval by the EMO. Removal of a PMC Lead requires approval of the Board.
 
 [#4_6_2_PL]
 ==== 4.6.2 Project Lead
 
-Eclipse projects are managed by one or more project leads. Project leads are responsible for ensuring that their project's committers are following the Eclipse Development Process, and that the project is engaging in the right sorts of activities to develop vibrant communities of users, adopters, and contributors. The initial project leads are appointed and approved in the creation review. Subsequently, additional project leads must be elected by the project's committers and approved by the project's PMC and the EMO(ED).
+Eclipse Projects are managed by one or more Project Leads. Project Leads are responsible for ensuring that their Project's Committers are following the Eclipse Development Process, and that the Project is engaging in the right sorts of activities to develop vibrant communities of users, Adopters, and Contributors. The initial Project Leads are appointed and approved in the Creation Review. Subsequently, additional Project Leads must be elected by the Project's Committers and approved by the Project's PMC and the EMO(ED).
 
-In the unlikely event that a project lead becomes disruptive to the process or ceases to contribute for an extended period, the individual may be removed by the unanimous vote of the remaining project leads (if there are at least two other project leads), or unanimous vote of the project's PMC.
+In the unlikely event that a Project Lead becomes disruptive to the process or ceases to contribute for an extended period, the individual may be removed by the unanimous vote of the remaining Project Leads (if there are at least two other Project Leads), or unanimous vote of the Project's PMC.
 
 [#4_7_Committers_and_Contributors]
 === 4.7 Committers
 
-Each project has a development team, led by the project leaders. The development team is composed of committers and contributors. Contributors are individuals who contribute code, fixes, tests, documentation, or other work that is part of the project. Committers have write access to the project's resources (source code repository, bug tracking system, website, build server, downloads, etc.) and are expected to influence the project's development.
+Each Project has a development team, led by the Project Leaders. The development team is composed of Committers and Contributors. Contributors are individuals who contribute code, fixes, tests, documentation, or other work that is part of the Project. Committers have write access to the Project's resources (source code repository, bug tracking system, website, build server, downloads, etc.) and are expected to influence the Project's development.
 
-Contributors who have the trust of the project's committers can, through election, be promoted committer for that project. The breadth of a committer's influence corresponds to the breadth of their contribution. A development team's contributors and committers may (and should) come from a diverse set of organizations. A committer gains voting rights allowing them to affect the future of the project. Becoming a committer is a privilege that is earned by contributing and showing discipline and good judgment. It is a responsibility that should be neither given nor taken lightly, nor is it a right based on employment by an Eclipse member company or any company employing existing committers.
+Contributors who have the trust of the Project's Committers can, through election, be promoted Committer for that Project. The breadth of a Committer's influence corresponds to the breadth of their contribution. A development team's Contributors and Committers may (and should) come from a diverse set of organizations. A Committer gains voting rights allowing them to affect the future of the Project. Becoming a Committer is a privilege that is earned by contributing and showing discipline and good judgment. It is a responsibility that should be neither given nor taken lightly, nor is it a right based on employment by an Eclipse member company or any company employing existing Committers.
 
-The election process begins with an existing committer on the same project nominating the contributor. The project's committers will vote for a period of no less than one week. If there are at least three (3) positive votes and no negative votes within the voting period, the contributor is recommended to the project's PMC for commit privileges. If there are three (3) or fewer committers on the project, a unanimous positive vote of all committers is substituted. If the PMC approves, and the contributor signs the appropriate committer legal agreements established by the EMO (wherein, at the very least, the developer agrees to abide by the Eclipse Intellectual Property Policy), the contributor becomes a committer and is given write access to the source code for that project.
+The election process begins with an existing Committer on the same Project nominating the Contributor. The Project's Committers will vote for a period of no less than one week. If there are at least three (3) positive votes and no negative votes within the voting period, the Contributor is recommended to the Project's PMC for commit privileges. If there are three (3) or fewer Committers on the Project, a unanimous positive vote of all Committers is substituted. If the PMC approves, and the Contributor signs the appropriate Committer legal agreements established by the EMO (wherein, at the very least, the Developer agrees to abide by the Eclipse Intellectual Property Policy), the Contributor becomes a Committer and is given write access to the source code for that Project.
 
-At times, committers may become inactive for a variety of reasons. The decision making process of the project relies on active committers who respond to discussions and vote in a constructive and timely manner. The project leads are responsible for ensuring the smooth operation of the project. A committer who is disruptive, does not participate actively, or has been inactive for an extended period may have his or her commit status revoked by the project leads. Unless otherwise specified, "an extended period" is defined as "no activity for more than six months".
+At times, Committers may become inactive for a variety of reasons. The decision making process of the Project relies on active Committers who respond to discussions and vote in a constructive and timely manner. The Project Leads are responsible for ensuring the smooth operation of the Project. A Committer who is disruptive, does not participate actively, or has been inactive for an extended period may have his or her commit status revoked by the Project Leads. Unless otherwise specified, "an extended period" is defined as "no activity for more than six months".
 
-Active participation in the user communication channels and the appropriate developer mailing lists is a responsibility of all committers, and is critical to the success of the project. Committers are required to monitor and contribute to the user communication channels.
+Active participation in the user communication channels and the appropriate Developer mailing lists is a responsibility of all Committers, and is critical to the success of the Project. Committers are required to monitor and contribute to the user communication channels.
 
-Committers are required to monitor the mailing lists associated with the project. This is a condition of being granted commit rights to the project. It is mandatory because committers must participate in votes (which in some cases require a certain minimum number of votes) and must respond to the mailing list in a timely fashion in order to facilitate the smooth operation of the project. When a committer is granted commit rights they will be added to the appropriate mailing lists. A committer must not be unsubscribed from a developer mailing list unless their associated commit privileges are also revoked.
+Committers are required to monitor the mailing lists associated with the Project. This is a condition of being granted commit rights to the Project. It is mandatory because Committers must participate in votes (which in some cases require a certain minimum number of votes) and must respond to the mailing list in a timely fashion in order to facilitate the smooth operation of the Project. When a Committer is granted commit rights they will be added to the appropriate mailing lists. A Committer must not be unsubscribed from a Developer mailing list unless their associated commit privileges are also revoked.
 
-Committers are required to track, participate in, and vote on, relevant discussions in their associated projects. There are three voting responses: +1 (yes), -1 (no, or veto), and 0 (abstain).
+Committers are required to track, participate in, and vote on, relevant discussions in their associated Projects. There are three voting responses: `+1` (yes), `-1` (no, or veto), and `0` (abstain).
 
 Committers are responsible for proactively reporting problems in the bug tracking system, and annotating problem reports with status information, explanations, clarifications, or requests for more information from the submitter. Committers are responsible for updating problem reports when they have done work related to the problem.
 
-Committer, PMC lead or member, project lead, and council representative(s) are roles; an individual may take on more than one of these roles simultaneously.
+Committer, PMC lead or member, Project Lead, and council representative(s) are roles; an individual may take on more than one of these roles simultaneously.
 
 [#4_8_Councils]
 === 4.8 Councils
 
-The councils defined in the bylaws, section VII are comprised of strategic members and PMC representatives. The councils help guide the projects as follows:
+The councils defined in the bylaws, section VII are comprised of strategic members and PMC representatives. The councils help guide the Projects as follows:
 
 ____
-The Planning Council is responsible for establishing a Platform Release Plan in the form of a coordinated simultaneous release (a.k.a, "the release train"). The Planning Council is further responsible for cross-project planning, architectural issues, user interface conflicts, and all other coordination and integration issues. The Planning Council discharges its responsibility via collaborative evaluation, prioritization, and compromise.
+The Planning Council is responsible for establishing a Platform Release Plan in the form of a coordinated simultaneous Release (a.k.a, "the Release train"). The Planning Council is further responsible for cross-Project planning, architectural issues, user interface conflicts, and all other coordination and integration issues. The Planning Council discharges its responsibility via collaborative evaluation, prioritization, and compromise.
 ____
 
 ____
-The Architecture Council is responsible for (i) monitoring, guiding, and influencing the software architectures used by projects, (ii) new project mentoring, and (iii) maintaining and revising the Eclipse Development Process. Membership in the Architecture Council is per the bylaws through strategic membership, PMCs, and by appointment. The Architecture Council will, at least annually, recommend to the EMO(ED), Eclipse Members who have sufficient experience, wisdom, and time to be appointed to the Architecture Council and serve as mentors. Election as a mentor is a highly visible confirmation of the Eclipse community's respect for the candidate's technical vision, good judgement, software development skills, past and future contributions to Eclipse. It is a role that should be neither given nor taken lightly. Appointed members of the Architecture Council are appointed to two year renewable terms; renewal is based on continued participation in mentoring or other council business.
+The Architecture Council is responsible for (i) monitoring, guiding, and influencing the software architectures used by Projects, (ii) new Project mentoring, and (iii) maintaining and revising the Eclipse Development Process. Membership in the Architecture Council is per the bylaws through strategic membership, PMCs, and by appointment. The Architecture Council will, at least annually, recommend to the EMO(ED), Eclipse Members who have sufficient experience, wisdom, and time to be appointed to the Architecture Council and serve as mentors. Election as a mentor is a highly visible confirmation of the Eclipse community's respect for the candidate's technical vision, good judgement, software development skills, past and future contributions to Eclipse. It is a role that should be neither given nor taken lightly. Appointed members of the Architecture Council are appointed to two year renewable terms; renewal is based on continued participation in mentoring or other council business.
 ____
 
 [#4_9_Incubators]
 === 4.9 Permanent Incubator Projects
 
-A project may designate a subproject as a "permanent incubator". A permanent incubator is a project that is intended to perpetually remain in the link:#6_2_3_Incubation[incubation phase]. Permanent incubators are an excellent place to innovate, test new ideas, grow functionality that may one day be moved into another project, and develop new committers.
+A Project may designate a Subproject as a "Permanent Incubator". A Permanent Incubator is a Project that is intended to perpetually remain in the link:#6_2_3_Incubation[Incubation Phase]. Permanent Incubators are an excellent place to innovate, test new ideas, grow functionality that may one day be moved into another Project, and develop new Committers.
 
-Permanent incubator projects never have releases. Permanent incubators may have builds, and downloads. They conform to the standard {incubationBrandingUrl}[incubation branding] requirements and are subject to the IP due diligence rules outlined for incubating projects. Permanent incubators do not graduate.
+Permanent Incubator Projects never have Releases. Permanent Incubators may have builds, and downloads. They conform to the standard {incubationBrandingUrl}[Incubation Branding] requirements and are subject to the IP due diligence rules outlined for incubating Projects. Permanent Incubators do not graduate.
 
-The scope of a permanent incubator project must fall within the scope of its parent project. The committer group of the permanent incubator project must overlap with that of the parent project (at least one committer from the parent project must be a committer for the incubator). Permanent incubator projects do not require Architecture Council mentors (the parent project's committers are responsible for ensuring that the incubator project conforms to the rules set forth by the Eclipse Development Process).
+The Scope of a Permanent Incubator Project must fall within the Scope of its parent Project. The Committer group of the Permanent Incubator Project must overlap with that of the parent Project (at least one Committer from the parent Project must be a Committer for the incubator). Permanent Incubator Projects do not require Architecture Council mentors (the parent Project's Committers are responsible for ensuring that the incubator Project conforms to the rules set forth by the Eclipse Development Process).
 
-A permanent incubator project must be designated as such by including the word "incubator" in its name (e.g. "Eclipse Incubator"). To do otherwise is considered exceptional and requires approval from the PMC and EMO(ED).
+A Permanent Incubator Project must be designated as such by including the word "Incubator" in its name (e.g. "Eclipse Dash Incubator"). To do otherwise is considered exceptional and requires approval from the PMC and EMO(ED).
 
-Only top-level projects and projects in the link:#6_2_4_Mature[mature phase] may create a permanent incubator. Permanent incubator projects are created upon request; a creation review is not required.
+Only Top-Level Projects and Projects in the link:#6_2_4_Mature[Mature Phase] may create a Permanent Incubator. Permanent Incubator Projects are created upon request; a Creation Review is not required.
 
 [#4_10_Plans]
 === 4.10 Project Plans
 
-Projects are required to make a project plan available to their community at the beginning of the development cycle for each major and minor release. The plan may be as simple as a short description and a list of issues, or more detailed and complex. Subprojects may opt to include their plans with those of their parent project.
+Projects are required to make a Project plan available to their community at the beginning of the development cycle for each major and Minor Release. The plan may be as simple as a short description and a list of issues, or more detailed and complex. Subprojects may opt to include their plans with those of their parent Project.
 
-Project Plans must be delivered to the community through communication channels approved by the EMO. The exact nature of the project plan varies depending on numerous variables, including the size and expectations of the communities, and requirements specified by the PMC.
+Project Plans must be delivered to the community through communication channels approved by the EMO. The exact nature of the Project plan varies depending on numerous variables, including the size and expectations of the communities, and requirements specified by the PMC.
 
 [#5_Reserved]
 == 5. [Reserved]
@@ -265,19 +265,19 @@ Project Plans must be delivered to the community through communication channels 
 [#6_Development_Process]
 == 6. Development Process
 
-Projects must work within their scope. Projects that desire to expand beyond their current scope must seek an enlargement of their scope using a public review as described below. Further, projects must fit within the scope defined by their containing projects and the scope defined in the charter of their top-level project.
+Projects must work within their Scope. Projects that desire to expand beyond their current Scope must seek an enlargement of their Scope using a public Review as described below. Further, Projects must fit within the Scope defined by their containing Projects and the Scope defined in the charter of their Top-Level Project.
 
-Projects must provide advanced notification of upcoming features via their project plan.
+Projects must provide advanced notification of upcoming features via their Project plan.
 
 [#6_1_Mentors]
 === 6.1 Mentors
 
-New project proposals are required to have at least one mentor. Mentors must be members of the Architecture Council. The mentors must be listed in the proposal. Mentors are required to monitor and advise the new project during its incubation phase; they are released from that duty once the project graduates to the mature phase.
+New Project Proposals are required to have at least one mentor. Mentors must be members of the Architecture Council. The mentors must be listed in the proposal. Mentors are required to monitor and advise the new Project during its Incubation Phase; they are released from that duty once the Project graduates to the Mature Phase.
 
 [#6_2_Project_Lifecycle]
 === 6.2 Project Lifecycle
 
-Projects go through distinct phases. The transitions from phase to phase are open and transparent public reviews.
+Projects go through distinct Phases. The transitions from Phase to Phase are open and transparent public Reviews.
 
 [graphviz, images/lifecycle, svg]
 .An overview of the Project lifecycle Phases
@@ -310,37 +310,37 @@ digraph {
 ----
 
 [#6_2_1_Pre-Proposal]
-==== 6.2.1 Pre-proposal Phase
+==== 6.2.1 Pre-Proposal Phase
 
-An individual or group of individuals declares their interest in, and rationale for, establishing a project. The EMO will assist such groups in the preparation of a project proposal.
+An individual or group of individuals declares their interest in, and rationale for, establishing a Project. The EMO will assist such groups in the preparation of a Project Proposal.
 
-The pre-proposal phase ends when the proposal is published by EMO and announced to the membership at large by the EMO.
+The Pre-Proposal Phase ends when the proposal is published by EMO and announced to the Membership at Large by the EMO.
 
 [#6_2_2_Proposal]
 ==== 6.2.2 Proposal Phase
 
-The proposers, in conjunction with the destination PMC and the community, collaborate in public to enhance, refine, and clarify the proposal. Mentors for the project must be identified during this phase.
+The proposers, in conjunction with the destination PMC and the community, collaborate in public to enhance, refine, and clarify the proposal. Mentors for the Project must be identified during this Phase.
 
-The proposal phase ends with a link:#6_3_1_Creation_Review[creation review], or withdrawal. The proposal may be withdrawn by the proposers at any point before the start of a creation review. The EMO will withdraw a proposal that has been inactive for more than six months.
+The Proposal Phase ends with a link:#6_3_1_Creation_Review[Creation Review], or withdrawal. The proposal may be withdrawn by the proposers at any point before the start of a Creation Review. The EMO will withdraw a proposal that has been inactive for more than six months.
 
 [#6_2_3_Incubation]
 ==== 6.2.3 Incubation Phase
 
-The purpose of the incubation phase is to establish a fully-functioning open-source project. In this context, incubation is about developing the process, the community, and the technology. Incubation is a phase rather than a place: new projects may be incubated under any existing project.
+The purpose of the Incubation Phase is to establish a fully-functioning open-source Project. In this context, incubation is about developing the process, the community, and the technology. Incubation is a Phase rather than a place: new Projects may be incubated under any existing Project.
 
-* A project in the incubation phase can (and should) make releases;
-* Top-level projects skip incubation and are immediately put into the mature phase;
-* The incubation phase ends with a graduation review or a termination review.
-* Designated link:#4_9_Incubators[permanent incubator projects] remain perpetually in the incubation phase; they do not create releases, so no reviews are required.
+* A Project in the Incubation Phase can (and should) make Releases;
+* Top-Level Projects skip incubation and are immediately put into the Mature Phase;
+* The Incubation Phase ends with a Graduation Review or a Termination Review.
+* Designated link:#4_9_Incubators[Permanent Incubator Projects] remain perpetually in the Incubation Phase; they do not create Releases, so no Reviews are required.
 
-Many Eclipse projects are proposed and initiated by individuals with extensive and successful software development experience. This document attempts to define a process that is sufficiently flexible to learn from all its participants. At the same time, however, the incubation phase is useful for new projects to learn the community-defined Eclipse-centric open source processes.
+Many Eclipse Projects are proposed and initiated by individuals with extensive and successful software development experience. This document attempts to define a process that is sufficiently flexible to learn from all its participants. At the same time, however, the Incubation Phase is useful for new Projects to learn the community-defined Eclipse-centric open source processes.
 
-Only projects that are properly identified as being in the incubation phase (including designated link:#4_9_Incubators[permanent incubator projects]) may use the Parallel IP Process to reduce IP clearance process for new contributions.
+Only Projects that are properly identified as being in the Incubation Phase (including designated link:#4_9_Incubators[Permanent Incubator Projects]) may use the Parallel IP Process to reduce IP clearance process for new contributions.
 
 [#6_2_4_Mature]
 ==== 6.2.4 Mature Phase
 
-The project team has demonstrated that they are an open-source project with an open and transparent process, an actively involved and growing community, and Eclipse-quality technology. The project is now a mature member of the Eclipse community.
+The Project Team has demonstrated that they are an open-source Project with an open and transparent process, an actively involved and growing community, and Eclipse-quality technology. The Project is now a mature member of the Eclipse community.
 
 [#6_2_5_Top-Level]
 ==== 6.2.5 [Reserved]
@@ -348,57 +348,57 @@ The project team has demonstrated that they are an open-source project with an o
 [#6_2_6_Archived]
 ==== 6.2.6 Archived
 
-Projects that become inactive, either through dwindling resources or by reaching their natural conclusion, are archived. Projects are moved to archived status through a termination review.
+Projects that become inactive, either through dwindling resources or by reaching their natural conclusion, are archived. Projects are moved to archived status through a Termination Review.
 
-If there is sufficient community interest in reactivating an archived project, the project can start again with a creation review. As there must be good reasons to have terminated a project, the creation review provides a sufficiently high bar to prove that those reasons are no longer valid.
+If there is sufficient community interest in reactivating an archived Project, the Project can start again with a Creation Review. As there must be good reasons to have terminated a Project, the Creation Review provides a sufficiently high bar to prove that those reasons are no longer valid.
 
 [#6_3_Reviews]
 === 6.3 Reviews
 
-The Eclipse Development Process is predicated on open and transparent behavior. All major changes to Eclipse projects must be announced and reviewed by the membership at large. Major changes include the project phase transitions as well as the introduction or exclusion of significant new technology or capability. It is a clear requirement of this document that members who are monitoring the appropriate media channels not be surprised by the post-facto actions of the projects.
+The Eclipse Development Process is predicated on open and transparent behavior. All major changes to Eclipse Projects must be announced and Reviewed by the Membership at Large. Major changes include the Project Phase transitions as well as the introduction or exclusion of significant new technology or capability. It is a clear requirement of this document that members who are monitoring the appropriate media channels not be surprised by the post-facto actions of the Projects.
 
-Projects are responsible for initiating the appropriate reviews. If it is determined to be necessary, the project leadership chain (e.g. the PMC or EMO) may initiate a review on the project's behalf.
+Projects are responsible for initiating the appropriate Reviews. If it is determined to be necessary, the Project Leadership Chain (e.g. the PMC or EMO) may initiate a Review on the Project's behalf.
 
-All reviews have the same general process:
+All Reviews have the same general process:
 
-1.  The project team will complete all required due diligence under the Eclipse IP Policy prior to initiating the review.
-2.  A project representative (project lead or committer) assembles review documentation.
-3.  A project representative presents the review documentation to the project's PMC along with a request to proceed with the review and for approval of the corresponding documentation.
-4.  Upon receiving approval from the PMC, a project representative makes a request to the EMO to schedule the review.
-5.  The EMO announces the review schedule and makes the documentation available to the membership at large.
-6.  The EMO approves or fails the review based on the feedback, the scope of the project, and the purposes of the Eclipse Foundation as defined in the bylaws.
+1.  The Project Team will complete all required due diligence under the Eclipse IP Policy prior to initiating the Review.
+2.  A Project representative (Project Lead or Committer) assembles Review documentation.
+3.  A Project representative presents the Review documentation to the Project's PMC along with a request to proceed with the Review and for approval of the corresponding documentation.
+4.  Upon receiving approval from the PMC, a Project representative makes a request to the EMO to schedule the Review.
+5.  The EMO announces the Review schedule and makes the documentation available to the Membership at Large.
+6.  The EMO approves or fails the Review based on the feedback, the Scope of the Project, and the purposes of the Eclipse Foundation as defined in the bylaws.
 
-The review documentation requirements, and criteria for the successful completion of each type of review will be documented by the EMO. PMCs may establish additional success criteria.
+The Review documentation requirements, and criteria for the successful completion of each type of Review will be documented by the EMO. PMCs may establish additional success criteria.
 
-The review period is open for no less than one week and usually no more than two weeks. The review ends with the announcement of the results in the defined review communication channel.
+The Review period is open for no less than one week and usually no more than two weeks. The Review ends with the announcement of the results in the defined Review communication channel.
 
-If any member believes that the EMO has acted incorrectly in approving or failing a review may appeal to the board of directors to review the EMO's decision.
+If any member believes that the EMO has acted incorrectly in approving or failing a Review may appeal to the Board of Directors to Review the EMO's decision.
 
 [#6_3_1_Creation_Review]
 ==== 6.3.1 Creation Review
 
-The purpose of the creation review is to assess the community and membership at large response to the proposal, to verify that appropriate resources are available for the project to achieve its plan, and to serve as a committer election for the project's initial committers. The Eclipse Foundation strives not to be a repository of "code dumps" and thus projects must be sufficiently staffed for forward progress.
+The purpose of the Creation Review is to assess the community and Membership at Large response to the proposal, to verify that appropriate resources are available for the Project to achieve its plan, and to serve as a Committer election for the Project's initial Committers. The Eclipse Foundation strives not to be a repository of "code dumps" and thus Projects must be sufficiently staffed for forward progress.
 
-The creation review documents must include short nomination bios of the proposed initial committers. These bios should discuss their relationship to, and history with, the incoming code and/or their involvement with the area/technologies covered by the proposal. The goal is to help keep any legacy contributors connected to new project and explain that connection to the current and future Eclipse membership at large, as well as justify the initial committers' participation in a meritocracy.
+The Creation Review documents must include short nomination bios of the proposed initial Committers. These bios should discuss their relationship to, and history with, the incoming code and/or their involvement with the area/technologies covered by the proposal. The goal is to help keep any legacy Contributors connected to new Project and explain that connection to the current and future Eclipse Membership at Large, as well as justify the initial Committers' participation in a meritocracy.
 
 [#6_3_2_Graduation_Review]
 ==== 6.3.2 Graduation Review
 
-The purpose of the graduation review is to mark a project's change from the incubation phase to the mature phase.
+The purpose of the Graduation Review is to mark a Project's change from the Incubation Phase to the Mature Phase.
 
-The graduation review confirms that the project is/has:
+The Graduation Review confirms that the Project is/has:
 
 * A working and demonstrable code base of sufficiently high quality.
-* Active and sufficiently diverse communities appropriate to the size of the graduating code base: adopters, developers, and users.
+* Active and sufficiently diverse communities appropriate to the size of the graduating code base: Adopters, Developers, and users.
 * Operating fully in the open following the principles and purposes of Eclipse.
 * A credit to Eclipse and is functioning well within the larger Eclipse community.
 
-A graduation review is generally link:#6_3_9_Combining_Reviews[combined] with a progress or release review.
+A Graduation Review is generally link:#6_3_9_Combining_Reviews[combined] with a progress or Release Review.
 
 [#6_3_3_Release_Review]
 ==== 6.3.3 Release Review
 
-A release review is a type of link:#6_3_5_Progress_Review[progress review] that is aligned directly with a specific release. A release review must be concluded successfully before the corresponding link:#6_4_Releases[release] is announced to the community.
+A Release Review is a type of link:#6_3_5_Progress_Review[Progress Review] that is aligned directly with a specific Release. A Release Review must be concluded successfully before the corresponding link:#6_4_Releases[Release] is announced to the community.
 
 [#6_3_4_Promotion_Review]
 ==== 6.3.4 [Reserved]
@@ -406,12 +406,12 @@ A release review is a type of link:#6_3_5_Progress_Review[progress review] that 
 [#6_3_5_Progress_Review]
 ==== 6.3.5 Progress Review
 
-The purposes of a progress review are: to summarize the accomplishments of the project, to verify that the IP Policy is being followed, to highlight any remaining quality and/or architectural issues, and to verify that the project is continuing to operate according to the principles and purposes of Eclipse.
+The purposes of a Progress Review are: to summarize the accomplishments of the Project, to verify that the IP Policy is being followed, to highlight any remaining quality and/or architectural issues, and to verify that the Project is continuing to operate according to the principles and purposes of Eclipse.
 
 [#6_3_6_Termination_Review]
 ==== 6.3.6 Termination Review
 
-The purpose of a termination review is to provide a final opportunity for the committers and/or Eclipse membership at large to discuss the proposed archiving of a Project. The desired outcome is to find sufficient evidence of renewed interest and resources in keeping the project active.
+The purpose of a Termination Review is to provide a final opportunity for the Committers and/or Eclipse Membership at Large to discuss the proposed archiving of a Project. The desired outcome is to find sufficient evidence of renewed interest and resources in keeping the Project active.
 
 [#6_3_7_Move_Review]
 ==== 6.3.7 [Reserved]
@@ -419,77 +419,75 @@ The purpose of a termination review is to provide a final opportunity for the co
 [#6_3_8_Restructuring_Review]
 ==== 6.3.8 Restructuring Review
 
-The purpose of a restructuring review is to notify the community of significant changes to one or more projects. Examples of "significant changes" include:
+The purpose of a Restructuring Review is to notify the community of significant changes to one or more Projects. Examples of "significant changes" include:
 
-* Movement of significant chunks of functionality from one project to another.
-* Modification of the project structure, e.g. combining multiple projects into a single project, or decomposing a single project into multiple projects.
-* Change of project scope.
+* Movement of significant chunks of functionality from one Project to another.
+* Modification of the Project structure, e.g. combining multiple Projects into a single Project, or decomposing a single Project into multiple Projects.
+* Change of Project Scope.
 
 [#6_3_9_Combining_Reviews]
 ==== 6.3.9 Combining Reviews
 
-Reviews can be combined at the discretion of the PMC and EMO. Multiple projects may participate in a single review. Similarly, multiple review types can be engaged in simultaneously. A parent project may, for example, engage in an aggregated progress review involving itself and some or all of its child projects; a consolidated restructuring review may move the code for several projects; or a progress review may be combined with a graduation review. When multiple reviews are combined, the review documentation must explicitly state all of the projects and types of reviews involved, and include the required information about each.
+Reviews can be combined at the discretion of the PMC and EMO. Multiple Projects may participate in a single Review. Similarly, multiple Review types can be engaged in simultaneously. A parent Project may, for example, engage in an aggregated Progress Review involving itself and some or all of its child Projects; a consolidated Restructuring Review may move the code for several Projects; or a Progress Review may be combined with a Graduation Review. When multiple Reviews are combined, the Review documentation must explicitly state all of the Projects and types of Reviews involved, and include the required information about each.
 
-It should be noted that the purpose of combining reviews is to better serve the community, rather than to reduce effort on the part of the project (though it is fortunate when it does both). Combining a progress and graduation review, or aggregating a progress review of a project and several of its child projects generally makes sense. Combining progress reviews for multiple unrelated projects most likely does not.
+It should be noted that the purpose of combining Reviews is to better serve the community, rather than to reduce effort on the part of the Project (though it is fortunate when it does both). Combining a progress and Graduation Review, or aggregating a Progress Review of a Project and several of its child Projects generally makes sense. Combining Progress Reviews for multiple unrelated Projects most likely does not.
 
 [#6_4_Releases]
 === 6.4 Releases
 
-Any project, with exception of permanent incubators, may make a release. A release may include the code from any subset of the project's descendants.
+Any Project, with exception of Permanent Incubators, may make a Release. A Release may include the code from any subset of the Project's descendants.
 
 _(Most of this section is paraphrased from the excellent http://www.apache.org/dev/release.html[Apache Software Foundation Releases FAQ]. The Eclipse community has many of the same beliefs about Releases as does the Apache community and their words were already excellent. The Apache Software Foundation Releases FAQ is distributed under the http://www.apache.org/licenses/LICENSE-2.0[Apache License, Version 2.0].)_
 
-Releases are, by definition, anything that is distributed outside of the committers of a project. If consumers are being directed to download a build, then that build has been released (modulo the exceptions below). All projects and committers must obey the Eclipse Foundation requirements on approving any release.
+Releases are, by definition, anything that is distributed outside of the Committers of a Project. If consumers are being directed to download a build, then that build has been released (modulo the exceptions below). All Projects and Committers must obey the Eclipse Foundation requirements on approving any Release.
 
-The {ipPolicyUrl}[Eclipse IP Policy] must be followed at all times. Prior to issuing any release, the Project Lead must assert that the IP Policy has been followed and all approvals have been received.
+The {ipPolicyUrl}[Eclipse IP Policy] must be followed at all times. Prior to issuing any Release, the Project Lead must assert that the IP Policy has been followed and all approvals have been received.
 
-A project can make official releases for one calendar year following a successful link:#6_3_5_Progress_Review[progress review] or link:#6_3_3_Release_Review[release review]. The project leadership chain may--at its discretion--require that the project engage in additional reviews (e.g. a progress or release review) prior to issuing a release.
+The Project Team must provide (either directly or indirectly) a link between the distribution form of Release artifacts and the corresponding source code.
 
-*Exception 1: nightly and integration builds* During the process of developing software and preparing a release, various nightly and integration builds are made available to the developer community for testing purposes. Do not include any links on the project website, blogs, wikis, etc. that might encourage non-early-adopters to download and use nightly builds, release candidates, or any other similar package (links aimed at early-adopters and the project's developers are both permitted and encouraged). The only people who are supposed to know about such packages are the people following the developer mailing list and thus are aware of the limitations of such builds.
+A Project can make official Releases for one calendar year following a successful link:#6_3_5_Progress_Review[Progress Review] or link:#6_3_3_Release_Review[Release Review]. The Project Leadership Chain may--at its discretion--require that the Project engage in additional Reviews (e.g. a progress or Release Review) prior to issuing a Release.
 
-*Exception 2: milestone and release candidate builds* Projects are encouraged to use an agile development process including regular milestones (for example, six week milestones). Milestones and release candidates are "almost releases" intended for adoption and testing by early adopters. Projects are allowed to have links on the project website, blogs, wikis, etc. to encourage these outside-the-committer-circle early adopters to download and test the milestones and release candidates, but such communications must include caveats explaining that these are not official releases.
+*Exception 1: Nightly and Integration Builds* During the process of developing software and preparing a Release, various nightly and Integration Builds are made available to the Developer community for testing purposes. Do not include any links on the Project website, blogs, wikis, etc. that might encourage non-early-adopters to download and use Nightly Builds, Release Candidates, or any other similar package (links aimed at early-adopters and the Project's Developers are both permitted and encouraged). The only people who are supposed to know about such packages are the people following the Developer mailing list and thus are aware of the limitations of such builds.
 
-*Exception 3: Service Releases with no new features* Service Releases (x.y.z, e.g., 2.3.1) with no significant changes or additions over the base release (e.g., 2.3) are allowed to be released without an additional review.
+*Exception 2: Milestone and Release Candidate Builds* Projects are encouraged to use an agile development process including regular Milestones (for example, six week Milestones). Milestones and Release Candidates are "almost Releases" intended for adoption and testing by early-adopters. Projects are allowed to have links on the Project website, blogs, wikis, etc. to encourage these outside-the-Committer-circle early-adopters to download and test the Milestones and Release Candidates, but such communications must include caveats explaining that these are not official Releases. Milestones and Release Candidate builds must be labeled as such (e.g. `x.yMn`, `x.yRCn`, _alpha_, _beta_, or similar).
 
-* Milestones are to be labeled `x.yMz`, e.g., 2.3M1 (milestone 1 towards version 2.3), 2.3M2 (milestone 2 towards version 2.3), etc.
-* Release candidates are to be labeled `x.yRCz`, e.g., 2.3RC1 (release candidate 1 towards version 2.3).
-* Official releases are the only downloads allowed to be labeled with `x.y`, e.g., 0.5, 1.0, 2.3, etc.
+*Exception 3: Service Releases with no new features* Service Releases with no significant changes or additions over the base Release are allowed to be released without an additional Review.
 
-Under no circumstances are builds and milestones to be used as a substitute for doing proper official releases. Proper release management and reviews is a key aspect of Eclipse quality.
+Under no circumstances are builds and Milestones to be used as a substitute for doing proper official Releases. Proper Release management and Reviews is a key aspect of Eclipse quality.
 
-Releases and corresponding artifacts for projects in the incubation phase must be labeled to indicate the incubation status of the project. See {incubationBrandingUrl}[Incubation Branding] for more information.
+Releases and corresponding artifacts for Projects in the Incubation Phase must be labeled to indicate the incubation status of the Project. See {incubationBrandingUrl}[Incubation Branding] for more information.
 
 [#6_5_Grievance_Handling]
 === 6.5 Grievance Handling
 
-When a member has a concern about a project, the member will raise that concern with the project's leadership. If the member is not satisfied with the result, the member can raise the concern with the parent project's leadership. The member can continue appeals up the project leadership chain and, if still not satisfied, thence to the EMO, then the executive director, and finally to the board of directors. All appeals and discussions will abide by the guiding principles of being open, transparent, and public.
+When a member has a concern about a Project, the member will raise that concern with the Project's leadership. If the member is not satisfied with the result, the member can raise the concern with the parent Project's leadership. The member can continue appeals up the Project Leadership Chain and, if still not satisfied, thence to the EMO, then the executive director, and finally to the Board of Directors. All appeals and discussions will abide by the guiding principles of being open, transparent, and public.
 
 Member concerns may include:
 
-* Out of scope. It is alleged that a project is exceeding its approved scope.
-* Dysfunctional. It is alleged that a project is not functioning correctly or is in violation of one or more requirements of the Eclipse Development Process.
-* Contributor appeal. It is alleged that a contributor who desires to be a committer is not being treated fairly.
-* Invalid veto. It is alleged that a -1 vote on a review is not in the interests of the project and/or of Eclipse.
+* Out of Scope. It is alleged that a Project is exceeding its approved Scope.
+* Dysfunctional. It is alleged that a Project is not functioning correctly or is in violation of one or more requirements of the Eclipse Development Process.
+* Contributor appeal. It is alleged that a Contributor who desires to be a Committer is not being treated fairly.
+* Invalid veto. It is alleged that a `-1` vote on a Review is not in the interests of the Project and/or of Eclipse.
 
-A variety of grievance resolutions are available to the EMO up to, and including, rebooting or restarting a project with new Committers and leadership.
+A variety of grievance resolutions are available to the EMO up to, and including, rebooting or restarting a Project with new Committers and leadership.
 
 [#7_Precedence]
 == 7. Precedence
 
-In the event of a conflict between this document and a board of directors-approved project charter, the most recently approved document will take precedence.
+In the event of a conflict between this document and a Board of Directors-approved Project charter, the most recently approved document will take precedence.
 
 [#8_Revisions]
 == 8. Revisions
 
-As specified in the bylaws, the EMO is responsible for maintaining this document and all changes must be approved by the board of directors.
+As specified in the bylaws, the EMO is responsible for maintaining this document and all changes must be approved by the Board of Directors.
 
-Due to the continued evolution of the Eclipse technology, the Eclipse community, and the software marketplace, it is expected that the Eclipse Development Process (this document) will be reviewed and revised on at least an annual basis. The timeline for that review should be chosen so as to incorporate the lessons of the previous annual coordinate release and to be applied to the next annual coordinated release.
+Due to the continued evolution of the Eclipse technology, the Eclipse community, and the software marketplace, it is expected that the Eclipse Development Process (this document) will be Reviewed and revised on at least an annual basis. The timeline for that Review should be chosen so as to incorporate the lessons of the previous annual coordinate Release and to be applied to the next annual coordinated Release.
 
-The EMO is further responsible for ensuring that all plans, documents and reports produced in accordance with this development process be made available to the membership at large via an appropriate mechanism in a timely, effective manner.
+The EMO is further responsible for ensuring that all plans, documents and reports produced in accordance with this development process be made available to the Membership at Large via an appropriate mechanism in a timely, effective manner.
 
 [#8_1_Revision]
 === 8.1 Revision 2.8
 
-This document was approved by the Eclipse Foundation Board of Directors in its meeting on November 2/2015. It takes effect (replacing all previous versions) on December 2/2015.
+This document was approved by the Eclipse Foundation Board of Directors in its meeting on November 14/2018. It takes effect (replacing all previous versions) on December 2/2018.
 
 include::history.adoc[]
