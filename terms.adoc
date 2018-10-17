@@ -1,9 +1,7 @@
-////
-Apply pseudo legal capitalization to the main document:
-cat eclipse_development_process.adoc | sed -E -e "`grep -P -oh "^.+(?=\s+\:\:)" terms.adoc | while read -r term; do echo -ne "s|$term|$term|gI;"; done`"
-////
-
 [glossary]
+
+Adopter ::
+Adopters are the individuals and organizations that adopt Eclipse technology for inclusion in their own products and services.
 
 Architecture Council ::
 The Eclipse Architecture Council (AC) is a council of experienced Eclipse committers responsible for identifying and tackling any issues that hinder continued technological success and innovation, widespread adoption, and future growth of Eclipse technology.
@@ -54,13 +52,13 @@ Membership at Large ::
 The Membership at Large (or _Membership_) refers to all members of all types, as defined by the {bylawsUrl}[Bylaws of the Eclipse Foundation].
 
 Milestone ::
-A Milestone is a build of the project content intended for limited distribution to demonstrate progress and solicit feedback. 
+A Milestone is a build of the Project content intended for limited distribution to demonstrate progress and solicit feedback. 
 
 Minor Release ::
 A Minor Release is a type of Release that includes new features over a Major Release.
 
 Nightly Build ::
-A Nightly Build is a build of the project content that is generated nightly and made available to the Developer community for testing purposes.
+A Nightly Build is a build of the Project content that is generated nightly and made available to the Developer community for testing purposes.
 
 Permanent Incubator ::
 A Permanent Incubator is a Project that is intended to perpetually remain in the Incubation Phase.
@@ -78,13 +76,13 @@ Progress Review ::
 A Progress Review a type of Review that is used by a Project Team to summarize the accomplishments of the Project, verify that the Eclipse Development Process and IP Policy have been followed, and to highlight any remaining quality and/or architectural issues.
 
 Project ::
-A Project is the primary functional unit for open source development, with a dedicated team of developers that work within the bounds of a well defined Scope using infrastructure and services provided by the Eclipse Foundation.
+A Project is the main operational unit for open source software development at the Eclipse Foundation.
 
 Project Lead ::
 A Project Lead, the first level in the Project Leadership Chain, is responsible for the overall well-being of a specific Project and serves as the primary liaison between that Project and the EMO.
 
 Project Leadership Chain ::
-The Project Leadership Chain is composed of a Project's Project Lead(s), the leadership of the parent Project (if any), the PMC Leads and PMC Members for the Top-Level project, the EMO, and the EMO(ED).
+The Project Leadership Chain is composed of a Project's Project Lead(s), the leadership of the parent Project (if any), the PMC Leads and PMC Members for the Top-Level Project, the EMO, and the EMO(ED).
 
 Project Management Committee ::
 A Project Management Committee (PMC) is the primary leadership of a Top-Level Project with responsibility to ensure that the Projects within its purview are active and viable.
@@ -99,7 +97,7 @@ Proposal Phase ::
 The Proposal Phase is a Phase during which a Project Proposal is presented to the community and Membership at Large to solicit feedback.
 
 Release ::
-A Release is a specifically identifiable set of artifacts that are collectively assigned a durable tag in source control and distributed in a semantically versioned durable form of that collection intended by the developers of the project for third-party use.
+A Release is a collection of Project artifacts intended for distribution beyond the Project Developers.
 
 Release Candidate ::
 A Release Candidate is a feature-complete Milestone.

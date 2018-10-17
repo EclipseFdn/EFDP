@@ -5,10 +5,12 @@
 ### Added
 - A separate section that formally defines key terms has been added.
 - The notion of a Progress Review added to augment (and in some cases, replace) Release Reviews (Bug 496321).
+- Added a requirement that the Project Team must provide (either directly or indirectly) a link between the distribution form of Release artifacts and the corresponding source code.
 - A CHANGELOG based on "keep a changelog" https://keepachangelog.com/
 
 ### Removed
 - Removed redundant restriction that Permanent Incubators cannot participate in the simultaneous release (they can't release at all).
+- Removed discussion regarding specific labeling of Milestones and Release Candidates (replaced with an simple statement that Milestones and Release Candidates must be labeled as such with examples)
 
 ### Changes
 - Converted document source format to Asciidoctor.
