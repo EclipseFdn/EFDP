@@ -96,7 +96,6 @@
 						</goals>
 						<configuration>
 							<sourceDocumentName>eclipse_development_process.adoc</sourceDocumentName>
-							<headerFooter>false</headerFooter>
 							<attributes>
 							</attributes>
 						</configuration>
