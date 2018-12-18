@@ -8,9 +8,11 @@
  * SPDX-License-Identifier: EPL-2.0
 ////
 [[edp]]
-= Eclipse Development Process 2018
+= Eclipse Development Process
 
 Version 1.8. Effective December 14, 2018
+
+toc::[]
 
 [#1_Purpose]
 == 1. Purpose

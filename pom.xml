@@ -67,7 +67,7 @@
 						<imagesoutdir>.</imagesoutdir>
 						<imagesdir>.</imagesdir>
 						<data-uri />
-						<toc>left</toc>
+						<toc>macro</toc>
 						<icons />
 						<sectanchors>true</sectanchors>
 						<idprefix />
@@ -96,6 +96,7 @@
 						</goals>
 						<configuration>
 							<sourceDocumentName>eclipse_development_process.adoc</sourceDocumentName>
+							<headerFooter>false</headerFooter>
 							<attributes>
 							</attributes>
 						</configuration>
