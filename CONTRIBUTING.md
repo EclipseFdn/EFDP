@@ -1,45 +1,30 @@
 # Eclipse Development Process Community Contributing Guide
 
 This directory contains the source for the [Eclipse Development Process](eclipse_development_process.adoc) in AsciiDoc format, the build script, and generated output.
-The build script is configured to generate output for a specific version of the document and running the build (`npm run build`) may overwrite any existing document.
-
-The output files (eg., `*.html`) may be live documents that may be included by other documents found in the repository and also externally, so take care with what you commit.
-
-## Installing NPM
-
-NPM is required for generating the output files. 
-Please have a look at [Get npm!](https://www.npmjs.com/get-npm)
-
-## Installing Asciidoctor
-
-Please allow NPM to install all dependencies by running `npm install`.
-
-## AsciiDoc Syntax
-
-Please refere to  [AsciiDoc Syntax Quick Reference](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/). 
-
-## Making changes
-
-Follow [AsciiDoc Recommended Practices](https://asciidoctor.org/docs/asciidoc-recommended-practices/) when making changes.
-In particular, the one sentence per line recommendation is important to us.
-This makes it much easier to view the diffs in Git.
-
-As a sanity check, `npm test` should be run before committing.
-It should be run automatically because `npm install` will setup a Git pre-coomit hook.
-
-Sometimes, it isn’t possible to fix all lint issue, e.g., because you’d like to try out something for testing or discussion.
-In that case, you can use `git commit --no-verify` to temporarily bypass the check.
 
 ## Update Process
 
-Please submit pull requests for any changes.
-We’ll use pull requests for discussing them.
+Please submit pull requests for any changes. We’ll use pull requests for discussing them.
 
-New requirements, ideas and significant changed should be captured in issues.
-Larger items should be brought to the Architecture Council mailing list for discussion.
-Discussion summary/results must be documented (and referenced) in pull requests and issues.
+New requirements, ideas and significant changed should be captured in issues. Discussion summary/results must be documented (and referenced) in pull requests and issues.
 
 **No pull request** can be merged **without being reviewed**.
+
+### Eclipse Contributor Agreement
+
+Before your contribution can be accepted by the project team contributors must
+electronically sign the Eclipse Contributor Agreement (ECA).
+
+* http://www.eclipse.org/legal/ECA.php
+
+Commits that are provided by non-committers must have a Signed-off-by field in
+the footer indicating that the author is aware of the terms by which the
+contribution has been provided to the project. The non-committer must
+additionally have an Eclipse Foundation account and must have a signed Eclipse
+Contributor Agreement (ECA) on file.
+
+For more information, please see the Eclipse Committer Handbook:
+https://www.eclipse.org/projects/handbook/#resources-commit
 
 ### Sign-off Process
 

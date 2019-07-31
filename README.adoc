@@ -2,15 +2,18 @@
 Eclipse Management Organization <emo@eclipse.org>
 :hide-uri-scheme:
 
-Welcome to the Eclipse Development Process Repository. 
+Welcome to the Eclipse Foundation Development Process Repository. 
+
 This repository is a document generation hub and provides an infrastructure for hosting, extending and generating documents of the Eclipse Development Process.
 Our link:eclipse_development_process.adoc[Eclipse Development Process] is the go-to source of truth for Eclipse committers.
+
 Please make yourself familar and don’t hesitate to give feedback.
 
 By maintaining our link:eclipse_development_process.adoc[Eclipse Development Process document] in this repository, we are embracing a transparent and open culture about our process.
-Watch link:https://bit.ly/pull-request-your-culture[Changing the Laws of Engineering with GitHub Pull Requests] for additional background on why we’ve choosen this approach.
-Please open issues or pull requests if you’d like to see our process evolove.
 
+Watch link:https://bit.ly/pull-request-your-culture[Changing the Laws of Engineering with GitHub Pull Requests] for additional background on why we’ve choosen this approach.
+
+Please open issues or pull requests if you’d like to see our process evolove.
 
 == Feedback & Contact
 
@@ -22,13 +25,8 @@ Please submit feedback using one of the following ways:
 * Submit an issue, or
 * Submit a pull request (please read <<Contributing>> below).
 
-
 == Contributing
 
 IMPORTANT: Any changes to `eclipse_development_process.adoc` and its accompanying documents (even trivial one, eg. correcting typos) require a pull request and full EMO review and approval before merge.
 
-. Fork/clone the repository
-. Create a new branch based of `develop`
-. Run `npm install`
-. Read the link:CONTRIBUTING.md[Contribution Guide]
-
+Please read the link:CONTRIBUTING.md[Contribution Guide].
