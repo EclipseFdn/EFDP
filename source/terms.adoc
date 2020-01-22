@@ -4,7 +4,7 @@ Adopter ::
 Adopters are the individuals and organizations that adopt Eclipse technology for inclusion in their own products and services.
 
 Architecture Council ::
-The Eclipse Architecture Council (AC) is a council of experienced Eclipse committers responsible for identifying and tackling any issues that hinder continued technological success and innovation, widespread adoption, and future growth of Eclipse technology.
+The Eclipse Architecture Council (AC) is a council of experienced Eclipse committers responsible for identifying and tackling any issues that hinder continued technological success and innovation, widespread adoption, and future growth of Eclipse technology. The Eclipse Architecture Council is formally defined in section VII of the Bylaws of the Eclipse Foundation.
 
 Board of Directors ::
 The business and technical affairs of the Eclipse Foundation are managed by or under the direction of the Eclipse Board of Directors. 
@@ -28,7 +28,7 @@ Ecosystem ::
 An Ecosystem is a system in which companies, organizations, and individuals all work together for mutual benefit.
 
 Eclipse Management Organization ::
-The Eclipse Management Organization (EMO) consists of the Eclipse Foundation staff, and the Eclipse Architecture and Planning Councils. 
+The Eclipse Management Organization (EMO) consists of the Eclipse Foundation staff, and the Eclipse Architecture Council. 
 
 Graduation Review ::
 A Graduation Review is a type of Review that marks a Project's transition from the Incubation Phase to the Mature Phase.
@@ -65,9 +65,6 @@ A Permanent Incubator is a Project that is intended to perpetually remain in the
 
 Phase ::
 A Phase is a stage in the Project lifecycle. See Pre-proposal Phase, Proposal Phase, Incubation Phase, and Mature Phase.
-
-Planning Council ::
-The Eclipse Planning Council is a council that is responsible for cross-project planning, user interface conflicts, and all other coordination and integration issues.
 
 Pre-proposal Phase ::
 The Pre-proposal Phase is a Phase during which a new Project Proposal is created. 

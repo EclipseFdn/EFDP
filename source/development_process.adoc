@@ -236,17 +236,7 @@ Committers are responsible for proactively reporting problems in the bug trackin
 Committer, PMC lead or member, Project Lead, and council representative(s) are roles; an individual may take on more than one of these roles simultaneously.
 
 [#4_8_Councils]
-=== 4.8 Councils
-
-The councils defined in the bylaws, section VII are comprised of strategic members and PMC representatives. The councils help guide the Projects as follows:
-
-____
-The Planning Council is responsible for establishing a Platform Release Plan in the form of a coordinated simultaneous Release (a.k.a, "the Release train"). The Planning Council is further responsible for cross-Project planning, architectural issues, user interface conflicts, and all other coordination and integration issues. The Planning Council discharges its responsibility via collaborative evaluation, prioritization, and compromise.
-____
-
-____
-The Architecture Council is responsible for (i) monitoring, guiding, and influencing the software architectures used by Projects, (ii) new Project mentoring, and (iii) maintaining and revising the Eclipse Development Process. Membership in the Architecture Council is per the bylaws through strategic membership, PMCs, and by appointment. The Architecture Council will, at least annually, recommend to the EMO(ED), Eclipse Members who have sufficient experience, wisdom, and time to be appointed to the Architecture Council and serve as mentors. Election as a mentor is a highly visible confirmation of the Eclipse community's respect for the candidate's technical vision, good judgement, software development skills, past and future contributions to Eclipse. It is a role that should be neither given nor taken lightly. Appointed members of the Architecture Council are appointed to two year renewable terms; renewal is based on continued participation in mentoring or other council business.
-____
+=== 4.8 [Reserved]
 
 [#4_9_Incubators]
 === 4.9 Permanent Incubator Projects
