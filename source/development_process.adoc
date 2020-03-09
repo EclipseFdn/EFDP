@@ -10,7 +10,7 @@
 [[edp]]
 = Eclipse Development Process
 
-Version 1.8. Effective December 14, 2018
+Version 1.9. Effective March 24, 2020
 
 toc::[]
 
