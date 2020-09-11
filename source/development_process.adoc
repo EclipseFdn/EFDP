@@ -215,7 +215,7 @@ Eclipse Projects are managed by one or more Project Leads. Project Leads are res
 In the unlikely event that a Project Lead becomes disruptive to the process or ceases to contribute for an extended period, the individual may be removed by the unanimous vote of the remaining Project Leads (if there are at least two other Project Leads), or unanimous vote of the Project's PMC.
 
 [#4_7_Committers_and_Contributors]
-=== 4.7 Committers
+=== 4.7 Committers and Contributors
 
 Each Project has a development team, led by the Project Leaders. The development team is composed of Committers and Contributors. Contributors are individuals who contribute code, fixes, tests, documentation, or other work that is part of the Project. Committers have write access to the Project's resources (source code repository, bug tracking system, website, build server, downloads, etc.) and are expected to influence the Project's development.
 
@@ -231,7 +231,7 @@ Committers are required to monitor the mailing lists associated with the Project
 
 Committers are required to track, participate in, and vote on, relevant discussions in their associated Projects. There are three voting responses: `+1` (yes), `-1` (no, or veto), and `0` (abstain).
 
-Committers are responsible for proactively reporting problems in the bug tracking system, and annotating problem reports with status information, explanations, clarifications, or requests for more information from the submitter. Committers are responsible for updating problem reports when they have done work related to the problem.
+Committers are responsible for proactively reporting problems in the bug tracking system, and annotating problem reports with status information, explanations, clarifications, or requests for more information from Contributors. Committers are responsible for updating problem reports when they have done work related to the problem.
 
 Committer, PMC lead or member, Project Lead, and council representative(s) are roles; an individual may take on more than one of these roles simultaneously.
 
