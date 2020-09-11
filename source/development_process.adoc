@@ -8,9 +8,9 @@
  * SPDX-License-Identifier: EPL-2.0
 ////
 [[edp]]
-= Eclipse Development Process
+= Eclipse Foundation Development Process
 
-Version 1.9. Effective March 24, 2020
+Version 1.10. Effective October 24, 2020
 
 toc::[]
 

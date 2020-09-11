@@ -10,7 +10,7 @@
 
 	<groupId>org.eclipse.foundation</groupId>
 	<artifactId>org.eclipse.foundation.edp</artifactId>
-	<version>2018</version>
+	<version>1.10</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
