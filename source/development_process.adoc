@@ -310,8 +310,6 @@ The purpose of the Incubation Phase is to establish a fully-functioning open-sou
 
 Many Eclipse Projects are proposed and initiated by individuals with extensive and successful software development experience. This document attempts to define a process that is sufficiently flexible to learn from all its participants. At the same time, however, the Incubation Phase is useful for new Projects to learn the community-defined Eclipse-centric open source processes.
 
-Only Projects that are properly identified as being in the Incubation Phase (including designated link:#4_9_Incubators[Permanent Incubator Projects]) may use the Parallel IP Process to reduce IP clearance process for new contributions.
-
 [#6_2_4_Mature]
 ==== 6.2.4 Mature Phase
 
