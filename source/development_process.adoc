@@ -10,7 +10,7 @@
 [[edp]]
 = Eclipse Foundation Development Process
 
-Version 1.10. Effective October 24, 2020
+Version 1.10. Effective November 1, 2020
 
 toc::[]
 
@@ -458,7 +458,5 @@ Due to the continued evolution of the Eclipse technology, the Eclipse community,
 
 The EMO is further responsible for ensuring that all plans, documents and reports produced in accordance with this development process be made available to the Membership at Large via an appropriate mechanism in a timely, effective manner.
 
-[#8_1_Revision]
-=== 8.1 Revision 2.8
-
-This document was approved by the Eclipse Foundation Board of Directors in its meeting on December 7/2018.
+[#8_1_Reserved]
+=== 8.1 [Reserved]

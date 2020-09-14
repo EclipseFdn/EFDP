@@ -1,9 +1,10 @@
 # ChangeLog
 
-## [2020] - 2020-09-30
+## [2020] - 2020-11-01
 
 ## Removed
 - All references to the parallel IP Process
+- The "Revision" section (formerly 8.1) that had indicated the board meeting in which the specific revision was approved (this is is inconsistent with how we treat other documents).
 
 ## Changes
 - Document title changed to "Eclipse Foundation Development Process" to make it consistent with other documents.
