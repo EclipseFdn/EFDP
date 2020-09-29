@@ -108,8 +108,34 @@
 							<goal>process-asciidoc</goal>
 						</goals>
 						<configuration>
+							<baseDir>${project.basedir}/source</baseDir>
 							<sourceDocumentName>baseline.adoc</sourceDocumentName>
 							<attributes>
+								<nofooter/>
+								<experimental/>
+								<bylawsUrl>https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf</bylawsUrl> 
+								<ipPolicyUrl>https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf</ipPolicyUrl> 
+								<membershipAgreementUrl>https://www.eclipse.org/org/documents/eclipse_membership_agreement.pdf</membershipAgreementUrl>
+								<incubationBrandingUrl>http://wiki.eclipse.org/Development_Resources/HOWTO/Conforming_Incubation_Branding</incubationBrandingUrl>
+							</attributes>
+						</configuration>
+					</execution>
+					<execution>
+						<id>asciidoc-to-html-compare</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>process-asciidoc</goal>
+						</goals>
+						<configuration>
+							<baseDir>${project.basedir}/source</baseDir>
+							<sourceDocumentName>source/development_process.adoc</sourceDocumentName>
+							<attributes>
+								<nofooter></nofooter>
+								<experimental/>
+								<bylawsUrl>https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf</bylawsUrl> 
+								<ipPolicyUrl>https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf</ipPolicyUrl> 
+								<membershipAgreementUrl>https://www.eclipse.org/org/documents/eclipse_membership_agreement.pdf</membershipAgreementUrl>
+								<incubationBrandingUrl>http://wiki.eclipse.org/Development_Resources/HOWTO/Conforming_Incubation_Branding</incubationBrandingUrl>
 							</attributes>
 						</configuration>
 					</execution>
